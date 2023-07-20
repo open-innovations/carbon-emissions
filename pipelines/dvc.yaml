@@ -1,12 +1,12 @@
 stages:
-  scrape:
-    cmd: PYTHONPATH=. python pipelines/scrape.py
-    wdir: ../
-    deps:
-      - pipelines/scrape.py
-    outs:
-      - data-raw/gov_emissions.xlsx:
-          cache: false
+  # scrape:
+  #   cmd: PYTHONPATH=. python pipelines/scrape.py
+  #   wdir: ../
+  #   deps:
+  #     - pipelines/scrape.py
+  #   outs:
+  #     - data-raw/gov_emissions.xlsx:
+  #         cache: false
   transform:
     cmd: PYTHONPATH=. python pipelines/transform.py
     wdir: ../
