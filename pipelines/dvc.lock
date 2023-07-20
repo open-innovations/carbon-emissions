@@ -1,0 +1,26 @@
+schema: '2.0'
+stages:
+  scrape:
+    cmd: PYTHONPATH=. python pipelines/scrape.py
+    deps:
+    - path: pipelines/scrape.py
+      hash: md5
+      md5: 38495f63aa0e63ecc05227b22dafcee8
+      size: 659
+    outs:
+    - path: data-raw/gov_emissions.xlsx
+      hash: md5
+      md5: cbd4f53edb700024930eb9813610e6e1
+      size: 1885737
+      isexec: true
+  transform:
+    cmd: PYTHONPATH=. python pipelines/transform.py
+    deps:
+    - path: data-raw/gov_emissions.xlsx
+      hash: md5
+      md5: cbd4f53edb700024930eb9813610e6e1
+      size: 1885737
+    - path: pipelines/transform.py
+      hash: md5
+      md5: bbbdab23444aecb0df9c0093efc500c7
+      size: 162
