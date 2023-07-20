@@ -41,7 +41,7 @@ def comments_to_frame(data, filepath, sheet_name):
     for i, j in zip(transport_type, description):
         info.update({i:j})
 
-    info_as_frame = pd.Series(data=info)
+    info_as_frame = pd.Series(data=info, name='Description')
     info_as_frame = info_as_frame.replace("\n", "")
     info_as_frame = info_as_frame.str.strip()
     info_as_frame.to_csv(os.path.join(DATA_DIR, 'transport_type_info.csv'))
