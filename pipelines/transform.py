@@ -17,7 +17,7 @@ def read_data(**args):
     data = data[data.Activity != "Activity"]
     return data
 
-def comments_to_frame(data, filepath, sheet_name):
+def comments_to_csv(data, filepath, sheet_name):
     #only take filled cells
     info = data[data.Type.notnull()]
     #load the data
@@ -51,4 +51,4 @@ if __name__ == "__main__":
     data = read_data(filepath='data-raw/gov_emissions.xlsx', sheet_name="Passenger vehicles", skiprows=24, nrows=43, engine="openpyxl")
     data.to_csv(os.path.join(DATA_DIR, 'carbon_emissions.csv'))
     
-    comments_to_frame(data, filepath='data-raw/gov_emissions.xlsx', sheet_name="Passenger vehicles")
+    comments_to_csv(data, filepath='data-raw/gov_emissions.xlsx', sheet_name="Passenger vehicles")
