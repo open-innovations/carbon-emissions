@@ -22,5 +22,22 @@ stages:
       size: 1917327
     - path: pipelines/transform.py
       hash: md5
-      md5: 6d609145e158d8d88e9aa1ca134a8741
-      size: 1901
+      md5: 20e98f4f9f7c8c70951ef9e70082e802
+      size: 2191
+    outs:
+    - path: data/transformed_carbon_emissions.csv
+      hash: md5
+      md5: ce586c72409b9d9b96e6b5d5adee9f88
+      size: 2785
+      isexec: true
+  prepare:
+    cmd: PYTHONPATH=. python pipelines/prepare.py
+    deps:
+    - path: data/transformed_carbon_emissions.csv
+      hash: md5
+      md5: ff84a0114f28ae9db605010c0221da50
+      size: 790
+    - path: pipelines/prepare.py
+      hash: md5
+      md5: 4a49f40f5f33e6367805f443b7e30b55
+      size: 95

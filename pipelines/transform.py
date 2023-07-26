@@ -22,7 +22,7 @@ def comments_to_csv(data, filepath, sheet_name):
     info = data[data.Type.notnull()]
     #load the data
     workbook = load_workbook(filepath)
-    worksheet = workbook.get_sheet_by_name(sheet_name)
+    worksheet = workbook[sheet_name]
     #create empty list
     description = []
 
@@ -49,6 +49,8 @@ def comments_to_csv(data, filepath, sheet_name):
 
 if __name__ == "__main__":
     data = read_data(filepath='data-raw/gov_emissions.xlsx', sheet_name="Passenger vehicles", skiprows=24, nrows=43, engine="openpyxl")
-    data.to_csv(os.path.join(DATA_DIR, 'carbon_emissions.csv'))
+    transformed_data = data.loc[:, ["Activity", "Type", "Unit", "kg CO2e", "kg CO2e.1", "kg CO2e.2", "kg CO2e.3"]]
+    transformed_data.rename(columns={"kg CO2e": "Diesel", "kg CO2e.1": "Petrol", "kg CO2e.2": "Unknown", "kg CO2e.3": "Plugin hybrid electric vehicle"}, inplace=True)
+    transformed_data.to_csv(os.path.join(DATA_DIR, 'transformed_carbon_emissions.csv'))
     
     comments_to_csv(data, filepath='data-raw/gov_emissions.xlsx', sheet_name="Passenger vehicles")

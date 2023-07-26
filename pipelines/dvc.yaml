@@ -13,6 +13,14 @@ stages:
     deps:
       - pipelines/transform.py
       - data-raw/gov_emissions.xlsx
+    outs:
+      - data/transformed_carbon_emissions.csv:
+          cache: false
+  # prepare:
+  #   cmd: PYTHONPATH=. python pipelines/prepare.py
+  #   wdir: ../
+  #   deps:
+  #     - pipelines/prepare.py
+  #     - data/transformed_carbon_emissions.csv
     # outs:
-    #   - data-raw/file.xlsx:
-    #       cache: false
+    #   - 
