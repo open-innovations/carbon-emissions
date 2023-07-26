@@ -1,4 +1,4 @@
-,Activity,Haul,Class,Unit,kg CO2e
+,Activity,Type,Class,Unit,kg CO2e
 0,Flights,"Domestic, to/from UK",Average passenger,passenger.km,0.2725767852348993
 1,,"Short-haul, to/from UK",Average passenger,passenger.km,0.1859171395973154
 2,,,Economy class,passenger.km,0.1828693543624161

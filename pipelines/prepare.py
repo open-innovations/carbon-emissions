@@ -1,4 +1,8 @@
 import pandas as pd
+import os
 
-data = pd.read_csv("data/transformed_carbon_emissions.csv")
+RAW_DATA_DIR = 'data/transformed/'
+OUTDIR = 'data/prepped/'
+os.makedirs(OUTDIR, exist_ok=True)
+
 print(data)

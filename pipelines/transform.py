@@ -70,17 +70,18 @@ if __name__ == "__main__":
                     max_col=2)
 
     air_travel = read_data(filepath=fp, sheet_name="Business travel- air", skiprows=21, nrows=15, engine=engine)
-    air_travel = transform_data(air_travel, use_cols=['Activity', 'Haul', 'Class', 'Unit', 'kg CO2e'])
+    air_travel = transform_data(air_travel, use_cols=['Activity', 'Haul', 'Class', 'Unit', 'kg CO2e'], mapper={'Haul': 'Type'})
     air_travel.to_csv(os.path.join(DATA_DIR, 'air_travel.csv'))
     comments_to_csv(air_travel, 
                     filepath='data-raw/gov_emissions.xlsx', 
                     sheet_name="Business travel- air", 
                     filename='air_travel_info.csv',
-                    colname='Haul', 
+                    colname='Type', 
                     min_col=0, 
                     max_col=2)
     
     sea_travel = read_data(filepath=fp, sheet_name="Business travel- sea", skiprows=16, nrows=5, engine=engine)
+    sea_travel['Activity'] = 'Ferry'
     sea_travel.to_csv(os.path.join(DATA_DIR, 'sea_travel.csv'))
 
     taxis = read_data(filepath=fp, sheet_name="Business travel- land", skiprows=69, nrows=5, engine=engine)
@@ -88,8 +89,11 @@ if __name__ == "__main__":
     trains = read_data(filepath=fp, sheet_name="Business travel- land", skiprows=85, nrows=5, engine=engine)
 
     taxis = transform_data(taxis, use_cols=["Activity", "Type", "Unit", "kg CO2e"])
+    taxis['Activity'] = 'Taxis'
     buses = transform_data(buses, use_cols=["Activity", "Type", "Unit", "kg CO2e"])
+    buses['Activity'] = 'Bus'
     trains = transform_data(trains, use_cols=["Activity", "Type", "Unit", "kg CO2e"])
+    trains['Activity'] = 'Rail'
 
     taxis.to_csv(os.path.join(DATA_DIR, 'taxis.csv'))
     buses.to_csv(os.path.join(DATA_DIR, 'buses.csv'))

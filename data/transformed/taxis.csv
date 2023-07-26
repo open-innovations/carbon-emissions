@@ -1,5 +1,5 @@
 ,Activity,Type,Unit,kg CO2e
 0,Taxis,Regular taxi,passenger.km,0.148614925938255
-1,,,km,0.20805644888053693
-2,,Black cab,passenger.km,0.20402466838120806
-3,,,km,0.30603644888053694
+1,Taxis,,km,0.20805644888053693
+2,Taxis,Black cab,passenger.km,0.20402466838120806
+3,Taxis,,km,0.30603644888053694

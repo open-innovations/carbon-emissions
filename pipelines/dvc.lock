@@ -22,18 +22,18 @@ stages:
       size: 1917327
     - path: pipelines/transform.py
       hash: md5
-      md5: fa953d0972981a1d3e094fb9df209688
-      size: 4224
+      md5: c75d3ff3ca8a9cc7732738977712ded6
+      size: 4384
     outs:
     - path: data/transformed/air_travel.csv
       hash: md5
-      md5: 3d9c793919ce9431e23693d9665f16f6
+      md5: 150d8fa396af1bfce12e59a6b3fa5381
       size: 870
       isexec: true
     - path: data/transformed/buses.csv
       hash: md5
-      md5: 779d60f588a73e951c324fbe1d13d34a
-      size: 240
+      md5: 670726cdb88041d4c0917cbdfb586643
+      size: 249
       isexec: true
     - path: data/transformed/passenger_vehicles.csv
       hash: md5
@@ -47,18 +47,18 @@ stages:
       isexec: true
     - path: data/transformed/sea_travel.csv
       hash: md5
-      md5: 80c1f23ef56125192cea0b0cae36a803
-      size: 426
+      md5: f50009bf894114c2a8eefdf692aedeb8
+      size: 436
       isexec: true
     - path: data/transformed/taxis.csv
       hash: md5
-      md5: a16b22ab5a57adf4cbd0e9accd7972bc
-      size: 180
+      md5: f48aeeb39bba520740d4d79426388a20
+      size: 195
       isexec: true
     - path: data/transformed/trains.csv
       hash: md5
-      md5: 01db62e2e3c4b41427fb650a3e4088ad
-      size: 249
+      md5: e346787a0300b32c8e427aed7f36d7b4
+      size: 261
       isexec: true
   prepare:
     cmd: PYTHONPATH=. python pipelines/prepare.py

@@ -1,5 +1,5 @@
 ,Activity,Type,Unit,kg CO2e
 0,Rail,National rail,passenger.km,0.03546296375838926
-1,,International rail,passenger.km,0.004459077852348993
-2,,Light rail and tram,passenger.km,0.02860326711409396
-3,,London Underground,passenger.km,0.02780206711409396
+1,Rail,International rail,passenger.km,0.004459077852348993
+2,Rail,Light rail and tram,passenger.km,0.02860326711409396
+3,Rail,London Underground,passenger.km,0.02780206711409396
