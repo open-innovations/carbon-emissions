@@ -1,0 +1,5 @@
+,Activity,Type,Unit,kg CO2e
+0,Bus,Local bus (not London),passenger.km,0.11836276912751678
+1,,Local London bus,passenger.km,0.07832250872483222
+2,,Average local bus,passenger.km,0.10215039463087248
+3,,Coach,passenger.km,0.027181401342281877
