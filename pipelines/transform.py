@@ -54,6 +54,12 @@ def transform_data(data, use_cols, mapper=None):
         data.rename(columns=mapper, inplace=True)
     return data
 
+def fill_frame(data, column):
+        #fill empty columns for clarity
+        label = data[data[f'{column}'].notnull()].loc[0, f'{column}']
+        data[column] = label
+        return data
+
 if __name__ == "__main__":
     fp = 'data-raw/gov_emissions.xlsx'
     engine = "openpyxl"
@@ -69,23 +75,27 @@ if __name__ == "__main__":
                     max_col=2)
     cars_market_segment = cars_market_segment.iloc[0:18, :]
     
-    cars_market_segment_pivot = cars_market_segment.melt(id_vars=['Activity', 'Type', 'Unit'], value_vars=['Diesel', 'Petrol', 'Unknown', 'Plugin hybrid electric vehicle'], var_name='Fuel', value_name='kg CO2e')
-    cars_market_segment_pivot.to_csv(os.path.join(DATA_DIR, 'cars_market_segment.csv'))
+    cars_market_segment = cars_market_segment.melt(id_vars=['Activity', 'Type', 'Unit'], value_vars=['Diesel', 'Petrol', 'Unknown', 'Plugin hybrid electric vehicle'], var_name='Fuel', value_name='kg CO2e')
+    cars_market_segment = fill_frame(cars_market_segment, "Activity")
+    cars_market_segment.to_csv(os.path.join(DATA_DIR, 'cars_market_segment.csv'))
     ######################################################
 
     cars_size = read_data(filepath=fp, sheet_name="Passenger vehicles", skiprows=46, nrows=9, engine=engine)
     cars_size = transform_data(cars_size, use_cols=["Activity", "Type", "Unit", "kg CO2e", "kg CO2e.1", "kg CO2e.2", "kg CO2e.3"],
                              mapper={"kg CO2e": "Diesel", "kg CO2e.1": "Petrol", "kg CO2e.2": "Hybrid", "kg CO2e.3": "CNG", "kg CO2e.4":"LPG", "kg CO2e": "Unknown", "kg CO2e": "Plugin hybrid electric vehicle"})
+    cars_size = fill_frame(cars_size, "Activity")
     cars_size.to_csv(os.path.join(DATA_DIR, 'cars_size.csv'))
     ############################################################
 
     motorbikes = read_data(filepath=fp, sheet_name="Passenger vehicles", skiprows=58, nrows=9, engine=engine)
     motorbikes = transform_data(motorbikes, use_cols=["Activity", "Type", "Unit", "kg CO2e"])   
+    motorbikes = fill_frame(motorbikes, "Activity")
     motorbikes.to_csv(os.path.join(DATA_DIR, 'motorbikes.csv'))
 
     ##################################
     air_travel = read_data(filepath=fp, sheet_name="Business travel- air", skiprows=21, nrows=15, engine=engine)
     air_travel = transform_data(air_travel, use_cols=['Activity', 'Haul', 'Class', 'Unit', 'kg CO2e'], mapper={'Haul': 'Type'})
+    air_travel = fill_frame(air_travel, "Activity")
     air_travel.to_csv(os.path.join(DATA_DIR, 'air_travel.csv'))
     comments_to_csv(air_travel, 
                     filepath='data-raw/gov_emissions.xlsx', 
@@ -113,3 +123,5 @@ if __name__ == "__main__":
     taxis.to_csv(os.path.join(DATA_DIR, 'taxis.csv'))
     buses.to_csv(os.path.join(DATA_DIR, 'buses.csv'))
     trains.to_csv(os.path.join(DATA_DIR, 'trains.csv'))
+    
+    #print(fill_frame(cars_market_segment, "Activity"))

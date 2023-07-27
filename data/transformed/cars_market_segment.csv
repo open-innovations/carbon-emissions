@@ -1,73 +1,73 @@
 ,Activity,Type,Unit,Fuel,kg CO2e
 0,Cars (by market segment),Mini,km,Diesel,0.10774644888053692
-1,,,miles,Diesel,0.17341566308724832
-2,,Supermini,km,Diesel,0.13214644888053692
-3,,,miles,Diesel,0.2126756630872483
-4,,Lower medium,km,Diesel,0.1434564488805369
-5,,,miles,Diesel,0.23087566308724833
-6,,Upper medium,km,Diesel,0.1604964488805369
-7,,,miles,Diesel,0.2582956630872483
-8,,Executive,km,Diesel,0.1730964488805369
-9,,,miles,Diesel,0.2785856630872483
-10,,Luxury,km,Diesel,0.21119644888053693
-11,,,miles,Diesel,0.3398956630872483
-12,,Sports,km,Diesel,0.1694364488805369
-13,,,miles,Diesel,0.2726856630872483
-14,,Dual purpose 4X4,km,Diesel,0.20194644888053692
-15,,,miles,Diesel,0.32500566308724826
-16,,MPV,km,Diesel,0.1765964488805369
-17,,,miles,Diesel,0.28421566308724827
+1,Cars (by market segment),,miles,Diesel,0.17341566308724832
+2,Cars (by market segment),Supermini,km,Diesel,0.13214644888053692
+3,Cars (by market segment),,miles,Diesel,0.2126756630872483
+4,Cars (by market segment),Lower medium,km,Diesel,0.1434564488805369
+5,Cars (by market segment),,miles,Diesel,0.23087566308724833
+6,Cars (by market segment),Upper medium,km,Diesel,0.1604964488805369
+7,Cars (by market segment),,miles,Diesel,0.2582956630872483
+8,Cars (by market segment),Executive,km,Diesel,0.1730964488805369
+9,Cars (by market segment),,miles,Diesel,0.2785856630872483
+10,Cars (by market segment),Luxury,km,Diesel,0.21119644888053693
+11,Cars (by market segment),,miles,Diesel,0.3398956630872483
+12,Cars (by market segment),Sports,km,Diesel,0.1694364488805369
+13,Cars (by market segment),,miles,Diesel,0.2726856630872483
+14,Cars (by market segment),Dual purpose 4X4,km,Diesel,0.20194644888053692
+15,Cars (by market segment),,miles,Diesel,0.32500566308724826
+16,Cars (by market segment),MPV,km,Diesel,0.1765964488805369
+17,Cars (by market segment),,miles,Diesel,0.28421566308724827
 18,Cars (by market segment),Mini,km,Petrol,0.13029853422818793
-19,,,miles,Petrol,0.20968697181208054
-20,,Supermini,km,Petrol,0.14168853422818792
-21,,,miles,Petrol,0.22802697181208054
-22,,Lower medium,km,Petrol,0.16472853422818792
-23,,,miles,Petrol,0.26509697181208053
-24,,Upper medium,km,Petrol,0.1921085342281879
-25,,,miles,Petrol,0.3091669718120805
-26,,Executive,km,Petrol,0.21231853422818792
-27,,,miles,Petrol,0.3416869718120805
-28,,Luxury,km,Petrol,0.31808853422818795
-29,,,miles,Petrol,0.5118969718120805
-30,,Sports,km,Petrol,0.23715853422818792
-31,,,miles,Petrol,0.3816569718120805
-32,,Dual purpose 4X4,km,Petrol,0.20404853422818792
-33,,,miles,Petrol,0.3283869718120805
-34,,MPV,km,Petrol,0.18425853422818791
-35,,,miles,Petrol,0.2965369718120805
+19,Cars (by market segment),,miles,Petrol,0.20968697181208054
+20,Cars (by market segment),Supermini,km,Petrol,0.14168853422818792
+21,Cars (by market segment),,miles,Petrol,0.22802697181208054
+22,Cars (by market segment),Lower medium,km,Petrol,0.16472853422818792
+23,Cars (by market segment),,miles,Petrol,0.26509697181208053
+24,Cars (by market segment),Upper medium,km,Petrol,0.1921085342281879
+25,Cars (by market segment),,miles,Petrol,0.3091669718120805
+26,Cars (by market segment),Executive,km,Petrol,0.21231853422818792
+27,Cars (by market segment),,miles,Petrol,0.3416869718120805
+28,Cars (by market segment),Luxury,km,Petrol,0.31808853422818795
+29,Cars (by market segment),,miles,Petrol,0.5118969718120805
+30,Cars (by market segment),Sports,km,Petrol,0.23715853422818792
+31,Cars (by market segment),,miles,Petrol,0.3816569718120805
+32,Cars (by market segment),Dual purpose 4X4,km,Petrol,0.20404853422818792
+33,Cars (by market segment),,miles,Petrol,0.3283869718120805
+34,Cars (by market segment),MPV,km,Petrol,0.18425853422818791
+35,Cars (by market segment),,miles,Petrol,0.2965369718120805
 36,Cars (by market segment),Mini,km,Unknown,0.13010511946308725
-37,,,miles,Unknown,0.20938244966442954
-38,,Supermini,km,Unknown,0.1404870644295302
-39,,,miles,Unknown,0.2260963986577181
-40,,Lower medium,km,Unknown,0.1552051731543624
-41,,,miles,Unknown,0.24977187114093957
-42,,Upper medium,km,Unknown,0.16793564832214766
-43,,,miles,Unknown,0.2702563543624161
-44,,Executive,km,Unknown,0.182641277852349
-45,,,miles,Unknown,0.2939342912751678
-46,,Luxury,km,Unknown,0.2598695436241611
-47,,,miles,Unknown,0.41822291946308726
-48,,Sports,km,Unknown,0.22616595704697987
-49,,,miles,Unknown,0.3639841838926175
-50,,Dual purpose 4X4,km,Unknown,0.20270690738255034
-51,,,miles,Unknown,0.3262132429530202
-52,,MPV,km,Unknown,0.17864690738255035
-53,,,miles,Unknown,0.28750324295302015
+37,Cars (by market segment),,miles,Unknown,0.20938244966442954
+38,Cars (by market segment),Supermini,km,Unknown,0.1404870644295302
+39,Cars (by market segment),,miles,Unknown,0.2260963986577181
+40,Cars (by market segment),Lower medium,km,Unknown,0.1552051731543624
+41,Cars (by market segment),,miles,Unknown,0.24977187114093957
+42,Cars (by market segment),Upper medium,km,Unknown,0.16793564832214766
+43,Cars (by market segment),,miles,Unknown,0.2702563543624161
+44,Cars (by market segment),Executive,km,Unknown,0.182641277852349
+45,Cars (by market segment),,miles,Unknown,0.2939342912751678
+46,Cars (by market segment),Luxury,km,Unknown,0.2598695436241611
+47,Cars (by market segment),,miles,Unknown,0.41822291946308726
+48,Cars (by market segment),Sports,km,Unknown,0.22616595704697987
+49,Cars (by market segment),,miles,Unknown,0.3639841838926175
+50,Cars (by market segment),Dual purpose 4X4,km,Unknown,0.20270690738255034
+51,Cars (by market segment),,miles,Unknown,0.3262132429530202
+52,Cars (by market segment),MPV,km,Unknown,0.17864690738255035
+53,Cars (by market segment),,miles,Unknown,0.28750324295302015
 54,Cars (by market segment),Mini,km,Plugin hybrid electric vehicle,
-55,,,miles,Plugin hybrid electric vehicle,
-56,,Supermini,km,Plugin hybrid electric vehicle,0.021630648322147648
-57,,,miles,Plugin hybrid electric vehicle,0.034812218791946306
-58,,Lower medium,km,Plugin hybrid electric vehicle,0.05975425234899329
-59,,,miles,Plugin hybrid electric vehicle,0.09618665637583894
-60,,Upper medium,km,Plugin hybrid electric vehicle,0.06310213020134228
-61,,,miles,Plugin hybrid electric vehicle,0.10157231946308726
-62,,Executive,km,Plugin hybrid electric vehicle,0.06649650067114093
-63,,,miles,Plugin hybrid electric vehicle,0.10702558255033558
-64,,Luxury,km,Plugin hybrid electric vehicle,0.0902061932885906
-65,,,miles,Plugin hybrid electric vehicle,0.1451689677852349
-66,,Sports,km,Plugin hybrid electric vehicle,0.08171453020134228
-67,,,miles,Plugin hybrid electric vehicle,0.1315070268456376
-68,,Dual purpose 4X4,km,Plugin hybrid electric vehicle,0.07096342281879195
-69,,,miles,Plugin hybrid electric vehicle,0.11420591946308727
-70,,MPV,km,Plugin hybrid electric vehicle,0.05658268187919463
-71,,,miles,Plugin hybrid electric vehicle,0.09106591543624161
+55,Cars (by market segment),,miles,Plugin hybrid electric vehicle,
+56,Cars (by market segment),Supermini,km,Plugin hybrid electric vehicle,0.021630648322147648
+57,Cars (by market segment),,miles,Plugin hybrid electric vehicle,0.034812218791946306
+58,Cars (by market segment),Lower medium,km,Plugin hybrid electric vehicle,0.05975425234899329
+59,Cars (by market segment),,miles,Plugin hybrid electric vehicle,0.09618665637583894
+60,Cars (by market segment),Upper medium,km,Plugin hybrid electric vehicle,0.06310213020134228
+61,Cars (by market segment),,miles,Plugin hybrid electric vehicle,0.10157231946308726
+62,Cars (by market segment),Executive,km,Plugin hybrid electric vehicle,0.06649650067114093
+63,Cars (by market segment),,miles,Plugin hybrid electric vehicle,0.10702558255033558
+64,Cars (by market segment),Luxury,km,Plugin hybrid electric vehicle,0.0902061932885906
+65,Cars (by market segment),,miles,Plugin hybrid electric vehicle,0.1451689677852349
+66,Cars (by market segment),Sports,km,Plugin hybrid electric vehicle,0.08171453020134228
+67,Cars (by market segment),,miles,Plugin hybrid electric vehicle,0.1315070268456376
+68,Cars (by market segment),Dual purpose 4X4,km,Plugin hybrid electric vehicle,0.07096342281879195
+69,Cars (by market segment),,miles,Plugin hybrid electric vehicle,0.11420591946308727
+70,Cars (by market segment),MPV,km,Plugin hybrid electric vehicle,0.05658268187919463
+71,Cars (by market segment),,miles,Plugin hybrid electric vehicle,0.09106591543624161

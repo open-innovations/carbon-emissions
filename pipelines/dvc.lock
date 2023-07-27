@@ -22,13 +22,13 @@ stages:
       size: 1917327
     - path: pipelines/transform.py
       hash: md5
-      md5: 9a896b222552f0a8c5577e98f705b4f1
-      size: 5670
+      md5: 6e8b674a3103c75555d1730a27fc1808
+      size: 6145
     outs:
     - path: data/transformed/air_travel.csv
       hash: md5
-      md5: 150d8fa396af1bfce12e59a6b3fa5381
-      size: 870
+      md5: ad9b3e10c1490de84949fc5d44097b4f
+      size: 961
       isexec: true
     - path: data/transformed/air_travel_info.csv
       hash: md5
@@ -42,18 +42,18 @@ stages:
       isexec: true
     - path: data/transformed/cars_market_segment.csv
       hash: md5
-      md5: 26983d04911099b36a14c5c9ce87a2ab
-      size: 3439
+      md5: bed9ccb49cdd41065895f981b267afbd
+      size: 5071
       isexec: true
     - path: data/transformed/cars_size.csv
       hash: md5
-      md5: b82beace599fc2c72ed24cd45b450201
-      size: 769
+      md5: 95c3ee40f8655ab596da970a71082e3d
+      size: 867
       isexec: true
     - path: data/transformed/motorbikes.csv
       hash: md5
-      md5: c18a33f16dd36248f7cbac1e901bb7c9
-      size: 283
+      md5: fc9fd38142340e73409b450c49037134
+      size: 346
       isexec: true
     - path: data/transformed/passenger_vehicles_info.csv
       hash: md5
