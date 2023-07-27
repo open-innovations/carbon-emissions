@@ -1,40 +1,44 @@
 stages:
-  # scrape:
-  #   cmd: PYTHONPATH=. python pipelines/scrape.py
-  #   wdir: ../
-  #   deps:
-  #     - pipelines/scrape.py
-  #   outs:
-  #     - data-raw/gov_emissions.xlsx:
-  #         cache: false
-  transform:
-    cmd: PYTHONPATH=. python pipelines/transform.py
-    wdir: ../
-    deps:
-      - pipelines/transform.py
-      - data-raw/gov_emissions.xlsx
-    outs:
-      - data/transformed/passenger_vehicles.csv:
-          cache: false
-      - data/transformed/passenger_vehicles_info.csv:
-          cache: false
-      - data/transformed/passenger_vehicles.csv:
-          cache: false
-      - data/transformed/air_travel.csv:
-          cache: false
-      - data/transformed/buses.csv:
-          cache: false
-      - data/transformed/sea_travel.csv:
-          cache: false
-      - data/transformed/trains.csv:
-          cache: false
-      - data/transformed/taxis.csv:
-          cache: false
-  # prepare:
-  #   cmd: PYTHONPATH=. python pipelines/prepare.py
-  #   wdir: ../
-  #   deps:
-  #     - pipelines/prepare.py
-  #     - data/transformed_carbon_emissions.csv
+    # scrape:
+    #   cmd: PYTHONPATH=. python pipelines/scrape.py
+    #   wdir: ../
+    #   deps:
+    #     - pipelines/scrape.py
+    #   outs:
+    #     - data-raw/gov_emissions.xlsx:
+    #         cache: false
+    transform:
+        cmd: PYTHONPATH=. python pipelines/transform.py
+        wdir: ../
+        deps:
+            - pipelines/transform.py
+            - data-raw/gov_emissions.xlsx
+        outs:
+            - data/transformed/cars_market_segment.csv:
+                  cache: false
+            - data/transformed/cars_size.csv:
+                  cache: false
+            - data/transformed/motorbikes.csv:
+                  cache: false
+            - data/transformed/passenger_vehicles_info.csv:
+                  cache: false
+            - data/transformed/air_travel_info.csv:
+                  cache: false
+            - data/transformed/air_travel.csv:
+                  cache: false
+            - data/transformed/buses.csv:
+                  cache: false
+            - data/transformed/sea_travel.csv:
+                  cache: false
+            - data/transformed/trains.csv:
+                  cache: false
+            - data/transformed/taxis.csv:
+                  cache: false
+    # prepare:
+    #   cmd: PYTHONPATH=. python pipelines/prepare.py
+    #   wdir: ../
+    #   deps:
+    #     - pipelines/prepare.py
+    #     - data/transformed_carbon_emissions.csv
     # outs:
-    #   - 
+    #   -

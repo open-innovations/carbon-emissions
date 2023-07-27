@@ -58,17 +58,32 @@ if __name__ == "__main__":
     fp = 'data-raw/gov_emissions.xlsx'
     engine = "openpyxl"
 
-    passenger_vehicles = read_data(filepath=fp, sheet_name="Passenger vehicles", skiprows=24, nrows=43, engine=engine)
-    pv_data = transform_data(passenger_vehicles, use_cols=["Activity", "Type", "Unit", "kg CO2e", "kg CO2e.1", "kg CO2e.2", "kg CO2e.3"],
+    cars_market_segment = read_data(filepath=fp, sheet_name="Passenger vehicles", skiprows=24, nrows=43, engine=engine)
+    cars_market_segment = transform_data(cars_market_segment, use_cols=["Activity", "Type", "Unit", "kg CO2e", "kg CO2e.1", "kg CO2e.2", "kg CO2e.3"],
                              mapper={"kg CO2e": "Diesel", "kg CO2e.1": "Petrol", "kg CO2e.2": "Unknown", "kg CO2e.3": "Plugin hybrid electric vehicle"})
-    pv_data.to_csv(os.path.join(DATA_DIR, 'passenger_vehicles.csv'))
-    comments_to_csv(pv_data, filepath='data-raw/gov_emissions.xlsx', 
+    comments_to_csv(cars_market_segment, filepath='data-raw/gov_emissions.xlsx', 
                     sheet_name="Passenger vehicles", 
                     filename='passenger_vehicles_info.csv',
                     colname='Type', 
                     min_col=1, 
                     max_col=2)
+    cars_market_segment = cars_market_segment.iloc[0:18, :]
+    
+    cars_market_segment_pivot = cars_market_segment.melt(id_vars=['Activity', 'Type', 'Unit'], value_vars=['Diesel', 'Petrol', 'Unknown', 'Plugin hybrid electric vehicle'], var_name='Fuel', value_name='kg CO2e')
+    cars_market_segment_pivot.to_csv(os.path.join(DATA_DIR, 'cars_market_segment.csv'))
+    ######################################################
 
+    cars_size = read_data(filepath=fp, sheet_name="Passenger vehicles", skiprows=46, nrows=9, engine=engine)
+    cars_size = transform_data(cars_size, use_cols=["Activity", "Type", "Unit", "kg CO2e", "kg CO2e.1", "kg CO2e.2", "kg CO2e.3"],
+                             mapper={"kg CO2e": "Diesel", "kg CO2e.1": "Petrol", "kg CO2e.2": "Hybrid", "kg CO2e.3": "CNG", "kg CO2e.4":"LPG", "kg CO2e": "Unknown", "kg CO2e": "Plugin hybrid electric vehicle"})
+    cars_size.to_csv(os.path.join(DATA_DIR, 'cars_size.csv'))
+    ############################################################
+
+    motorbikes = read_data(filepath=fp, sheet_name="Passenger vehicles", skiprows=58, nrows=9, engine=engine)
+    motorbikes = transform_data(motorbikes, use_cols=["Activity", "Type", "Unit", "kg CO2e"])   
+    motorbikes.to_csv(os.path.join(DATA_DIR, 'motorbikes.csv'))
+
+    ##################################
     air_travel = read_data(filepath=fp, sheet_name="Business travel- air", skiprows=21, nrows=15, engine=engine)
     air_travel = transform_data(air_travel, use_cols=['Activity', 'Haul', 'Class', 'Unit', 'kg CO2e'], mapper={'Haul': 'Type'})
     air_travel.to_csv(os.path.join(DATA_DIR, 'air_travel.csv'))
