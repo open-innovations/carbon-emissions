@@ -81,9 +81,10 @@ if __name__ == "__main__":
     ######################################################
 
     cars_size = read_data(filepath=fp, sheet_name="Passenger vehicles", skiprows=46, nrows=9, engine=engine)
-    cars_size = transform_data(cars_size, use_cols=["Activity", "Type", "Unit", "kg CO2e", "kg CO2e.1", "kg CO2e.2", "kg CO2e.3"],
-                             mapper={"kg CO2e": "Diesel", "kg CO2e.1": "Petrol", "kg CO2e.2": "Hybrid", "kg CO2e.3": "CNG", "kg CO2e.4":"LPG", "kg CO2e": "Unknown", "kg CO2e": "Plugin hybrid electric vehicle"})
+    cars_size = transform_data(cars_size, use_cols=["Activity", "Type", "Unit", "kg CO2e", "kg CO2e.1", "kg CO2e.2", "kg CO2e.3", "kg CO2e.4", "kg CO2e.5", "kg CO2e.6"],
+                             mapper={"kg CO2e": "Diesel", "kg CO2e.1": "Petrol", "kg CO2e.2": "Hybrid", "kg CO2e.3": "CNG", "kg CO2e.4":"LPG", "kg CO2e.5": "Unknown", "kg CO2e.6": "Plugin hybrid electric vehicle"})
     cars_size = fill_frame(cars_size, "Activity")
+    cars_size = cars_size.melt(id_vars=['Activity', 'Type', 'Unit'], value_vars=['Diesel', 'Petrol', 'Hybrid', 'CNG', 'LPG', 'Unknown', 'Plugin hybrid electric vehicle'], var_name='Fuel', value_name='kg CO2e')
     cars_size.to_csv(os.path.join(DATA_DIR, 'cars_size.csv'))
     ############################################################
 
@@ -96,7 +97,6 @@ if __name__ == "__main__":
     air_travel = read_data(filepath=fp, sheet_name="Business travel- air", skiprows=21, nrows=15, engine=engine)
     air_travel = transform_data(air_travel, use_cols=['Activity', 'Haul', 'Class', 'Unit', 'kg CO2e'], mapper={'Haul': 'Type'})
     air_travel = fill_frame(air_travel, "Activity")
-    air_travel.to_csv(os.path.join(DATA_DIR, 'air_travel.csv'))
     comments_to_csv(air_travel, 
                     filepath='data-raw/gov_emissions.xlsx', 
                     sheet_name="Business travel- air", 
@@ -104,8 +104,11 @@ if __name__ == "__main__":
                     colname='Type', 
                     min_col=0, 
                     max_col=2)
+    air_travel = air_travel[air_travel['Class'] == 'Average passenger'].drop(columns='Class')
+    air_travel.to_csv(os.path.join(DATA_DIR, 'air_travel.csv'))
     
     sea_travel = read_data(filepath=fp, sheet_name="Business travel- sea", skiprows=16, nrows=5, engine=engine)
+    sea_travel = sea_travel.drop(columns=['kg CO2e of CO2 per unit','kg CO2e of CH4 per unit','kg CO2e of N2O per unit'])
     sea_travel['Activity'] = 'Ferry'
     sea_travel.to_csv(os.path.join(DATA_DIR, 'sea_travel.csv'))
 
@@ -115,6 +118,7 @@ if __name__ == "__main__":
 
     taxis = transform_data(taxis, use_cols=["Activity", "Type", "Unit", "kg CO2e"])
     taxis['Activity'] = 'Taxis'
+
     buses = transform_data(buses, use_cols=["Activity", "Type", "Unit", "kg CO2e"])
     buses['Activity'] = 'Bus'
     trains = transform_data(trains, use_cols=["Activity", "Type", "Unit", "kg CO2e"])

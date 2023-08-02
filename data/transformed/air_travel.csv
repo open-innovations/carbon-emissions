@@ -1,15 +1,5 @@
-,Activity,Type,Class,Unit,kg CO2e
-0,Flights,"Domestic, to/from UK",Average passenger,passenger.km,0.2725767852348993
-1,Flights,"Short-haul, to/from UK",Average passenger,passenger.km,0.1859171395973154
-2,Flights,,Economy class,passenger.km,0.1828693543624161
-3,Flights,,Business class,passenger.km,0.274302877852349
-4,Flights,"Long-haul, to/from UK",Average passenger,passenger.km,0.2612806295302013
-5,Flights,,Economy class,passenger.km,0.20010828053691276
-6,Flights,,Premium economy class,passenger.km,0.3201551932885906
-7,Flights,,Business class,passenger.km,0.5802869302013423
-8,Flights,,First class,passenger.km,0.8004030295302013
-9,Flights,"International, to/from non-UK",Average passenger,passenger.km,0.17580378389261744
-10,Flights,,Economy class,passenger.km,0.13464333030872483
-11,Flights,,Premium economy class,passenger.km,0.21541942147651008
-12,Flights,,Business class,passenger.km,0.3904432053691275
-13,Flights,,First class,passenger.km,0.5385424
+,Activity,Type,Unit,kg CO2e
+0,Flights,"Domestic, to/from UK",passenger.km,0.2725767852348993
+1,Flights,"Short-haul, to/from UK",passenger.km,0.1859171395973154
+4,Flights,"Long-haul, to/from UK",passenger.km,0.2612806295302013
+9,Flights,"International, to/from non-UK",passenger.km,0.17580378389261744

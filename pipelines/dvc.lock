@@ -22,13 +22,13 @@ stages:
       size: 1917327
     - path: pipelines/transform.py
       hash: md5
-      md5: 6e8b674a3103c75555d1730a27fc1808
-      size: 6145
+      md5: f25b7965aafbeea9cb6591d8d6e18ed3
+      size: 6619
     outs:
     - path: data/transformed/air_travel.csv
       hash: md5
-      md5: ad9b3e10c1490de84949fc5d44097b4f
-      size: 961
+      md5: 0c3ff9cd327635d94526ecb17459fff9
+      size: 301
       isexec: true
     - path: data/transformed/air_travel_info.csv
       hash: md5
@@ -47,8 +47,8 @@ stages:
       isexec: true
     - path: data/transformed/cars_size.csv
       hash: md5
-      md5: 95c3ee40f8655ab596da970a71082e3d
-      size: 867
+      md5: 785d50186a11ca31cf22a2f654f93415
+      size: 3160
       isexec: true
     - path: data/transformed/motorbikes.csv
       hash: md5
@@ -62,8 +62,8 @@ stages:
       isexec: true
     - path: data/transformed/sea_travel.csv
       hash: md5
-      md5: f50009bf894114c2a8eefdf692aedeb8
-      size: 436
+      md5: d1a0d8f6e29de0d40058615f6ee39fa9
+      size: 204
       isexec: true
     - path: data/transformed/taxis.csv
       hash: md5
@@ -78,11 +78,18 @@ stages:
   prepare:
     cmd: PYTHONPATH=. python pipelines/prepare.py
     deps:
-    - path: data/transformed_carbon_emissions.csv
+    - path: data/transformed
       hash: md5
-      md5: ff84a0114f28ae9db605010c0221da50
-      size: 790
+      md5: 2e8acf8b93d7d61b6511b2345bda331c.dir
+      size: 13061
+      nfiles: 11
     - path: pipelines/prepare.py
       hash: md5
-      md5: 4a49f40f5f33e6367805f443b7e30b55
-      size: 95
+      md5: 14d15158eff01286f49afe809b845671
+      size: 828
+    outs:
+    - path: data/prepped/emission_factor_catalogue.csv
+      hash: md5
+      md5: d4fe384b0f9f7b8dcba84fab0c2b9e5c
+      size: 9349
+      isexec: true

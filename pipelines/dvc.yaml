@@ -34,11 +34,12 @@ stages:
                   cache: false
             - data/transformed/taxis.csv:
                   cache: false
-    # prepare:
-    #   cmd: PYTHONPATH=. python pipelines/prepare.py
-    #   wdir: ../
-    #   deps:
-    #     - pipelines/prepare.py
-    #     - data/transformed_carbon_emissions.csv
-    # outs:
-    #   -
+    prepare:
+      cmd: PYTHONPATH=. python pipelines/prepare.py
+      wdir: ../
+      deps:
+        - pipelines/prepare.py
+        - data/transformed
+      outs:
+            - data/prepped/emission_factor_catalogue.csv:
+                  cache: false
