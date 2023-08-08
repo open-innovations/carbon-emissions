@@ -1,214 +1,214 @@
 ,Scope,activity,type,fuel_type,flight_class,return_flight,ghg_unit,distance_unit,variable_name,value
-1021,Scope 1,Cars (by market segment),Mini,Diesel,,,,km,GHG Conversion Factor 2023,0.10774644888053692
-1025,Scope 1,Cars (by market segment),Mini,Petrol,,,,km,GHG Conversion Factor 2023,0.13029853422818793
-1029,Scope 1,Cars (by market segment),Mini,Unknown,,,,km,GHG Conversion Factor 2023,0.13010511946308725
-1033,Scope 1,Cars (by market segment),Mini,Plug-in Hybrid Electric Vehicle,,,,km,GHG Conversion Factor 2023,
-1037,Scope 1,Cars (by market segment),Mini,Battery Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.0
-1041,Scope 1,Cars (by market segment),Mini,Diesel,,,,miles,GHG Conversion Factor 2023,0.17341566308724832
-1045,Scope 1,Cars (by market segment),Mini,Petrol,,,,miles,GHG Conversion Factor 2023,0.20968697181208054
-1049,Scope 1,Cars (by market segment),Mini,Unknown,,,,miles,GHG Conversion Factor 2023,0.20938244966442954
-1053,Scope 1,Cars (by market segment),Mini,Plug-in Hybrid Electric Vehicle,,,,miles,GHG Conversion Factor 2023,
-1057,Scope 1,Cars (by market segment),Mini,Battery Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.0
-1061,Scope 1,Cars (by market segment),Supermini,Diesel,,,,km,GHG Conversion Factor 2023,0.13214644888053692
-1065,Scope 1,Cars (by market segment),Supermini,Petrol,,,,km,GHG Conversion Factor 2023,0.14168853422818792
-1069,Scope 1,Cars (by market segment),Supermini,Unknown,,,,km,GHG Conversion Factor 2023,0.1404870644295302
-1073,Scope 1,Cars (by market segment),Supermini,Plug-in Hybrid Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.021630648322147648
-1077,Scope 1,Cars (by market segment),Supermini,Battery Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.0
-1081,Scope 1,Cars (by market segment),Supermini,Diesel,,,,miles,GHG Conversion Factor 2023,0.2126756630872483
-1085,Scope 1,Cars (by market segment),Supermini,Petrol,,,,miles,GHG Conversion Factor 2023,0.22802697181208054
-1089,Scope 1,Cars (by market segment),Supermini,Unknown,,,,miles,GHG Conversion Factor 2023,0.2260963986577181
-1093,Scope 1,Cars (by market segment),Supermini,Plug-in Hybrid Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.034812218791946306
-1097,Scope 1,Cars (by market segment),Supermini,Battery Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.0
-1101,Scope 1,Cars (by market segment),Lower medium,Diesel,,,,km,GHG Conversion Factor 2023,0.1434564488805369
-1105,Scope 1,Cars (by market segment),Lower medium,Petrol,,,,km,GHG Conversion Factor 2023,0.16472853422818792
-1109,Scope 1,Cars (by market segment),Lower medium,Unknown,,,,km,GHG Conversion Factor 2023,0.1552051731543624
-1113,Scope 1,Cars (by market segment),Lower medium,Plug-in Hybrid Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.05975425234899329
-1117,Scope 1,Cars (by market segment),Lower medium,Battery Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.0
-1121,Scope 1,Cars (by market segment),Lower medium,Diesel,,,,miles,GHG Conversion Factor 2023,0.23087566308724833
-1125,Scope 1,Cars (by market segment),Lower medium,Petrol,,,,miles,GHG Conversion Factor 2023,0.26509697181208053
-1129,Scope 1,Cars (by market segment),Lower medium,Unknown,,,,miles,GHG Conversion Factor 2023,0.24977187114093957
-1133,Scope 1,Cars (by market segment),Lower medium,Plug-in Hybrid Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.09618665637583894
-1137,Scope 1,Cars (by market segment),Lower medium,Battery Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.0
-1141,Scope 1,Cars (by market segment),Upper medium,Diesel,,,,km,GHG Conversion Factor 2023,0.1604964488805369
-1145,Scope 1,Cars (by market segment),Upper medium,Petrol,,,,km,GHG Conversion Factor 2023,0.1921085342281879
-1149,Scope 1,Cars (by market segment),Upper medium,Unknown,,,,km,GHG Conversion Factor 2023,0.16793564832214766
-1153,Scope 1,Cars (by market segment),Upper medium,Plug-in Hybrid Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.06310213020134228
-1157,Scope 1,Cars (by market segment),Upper medium,Battery Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.0
-1161,Scope 1,Cars (by market segment),Upper medium,Diesel,,,,miles,GHG Conversion Factor 2023,0.2582956630872483
-1165,Scope 1,Cars (by market segment),Upper medium,Petrol,,,,miles,GHG Conversion Factor 2023,0.3091669718120805
-1169,Scope 1,Cars (by market segment),Upper medium,Unknown,,,,miles,GHG Conversion Factor 2023,0.2702563543624161
-1173,Scope 1,Cars (by market segment),Upper medium,Plug-in Hybrid Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.10157231946308726
-1177,Scope 1,Cars (by market segment),Upper medium,Battery Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.0
-1181,Scope 1,Cars (by market segment),Executive,Diesel,,,,km,GHG Conversion Factor 2023,0.1730964488805369
-1185,Scope 1,Cars (by market segment),Executive,Petrol,,,,km,GHG Conversion Factor 2023,0.21231853422818792
-1189,Scope 1,Cars (by market segment),Executive,Unknown,,,,km,GHG Conversion Factor 2023,0.182641277852349
-1193,Scope 1,Cars (by market segment),Executive,Plug-in Hybrid Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.06649650067114093
-1197,Scope 1,Cars (by market segment),Executive,Battery Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.0
-1201,Scope 1,Cars (by market segment),Executive,Diesel,,,,miles,GHG Conversion Factor 2023,0.2785856630872483
-1205,Scope 1,Cars (by market segment),Executive,Petrol,,,,miles,GHG Conversion Factor 2023,0.3416869718120805
-1209,Scope 1,Cars (by market segment),Executive,Unknown,,,,miles,GHG Conversion Factor 2023,0.2939342912751678
-1213,Scope 1,Cars (by market segment),Executive,Plug-in Hybrid Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.10702558255033558
-1217,Scope 1,Cars (by market segment),Executive,Battery Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.0
-1221,Scope 1,Cars (by market segment),Luxury,Diesel,,,,km,GHG Conversion Factor 2023,0.21119644888053693
-1225,Scope 1,Cars (by market segment),Luxury,Petrol,,,,km,GHG Conversion Factor 2023,0.31808853422818795
-1229,Scope 1,Cars (by market segment),Luxury,Unknown,,,,km,GHG Conversion Factor 2023,0.2598695436241611
-1233,Scope 1,Cars (by market segment),Luxury,Plug-in Hybrid Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.0902061932885906
-1237,Scope 1,Cars (by market segment),Luxury,Battery Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.0
-1241,Scope 1,Cars (by market segment),Luxury,Diesel,,,,miles,GHG Conversion Factor 2023,0.3398956630872483
-1245,Scope 1,Cars (by market segment),Luxury,Petrol,,,,miles,GHG Conversion Factor 2023,0.5118969718120805
-1249,Scope 1,Cars (by market segment),Luxury,Unknown,,,,miles,GHG Conversion Factor 2023,0.41822291946308726
-1253,Scope 1,Cars (by market segment),Luxury,Plug-in Hybrid Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.1451689677852349
-1257,Scope 1,Cars (by market segment),Luxury,Battery Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.0
-1261,Scope 1,Cars (by market segment),Sports,Diesel,,,,km,GHG Conversion Factor 2023,0.1694364488805369
-1265,Scope 1,Cars (by market segment),Sports,Petrol,,,,km,GHG Conversion Factor 2023,0.23715853422818792
-1269,Scope 1,Cars (by market segment),Sports,Unknown,,,,km,GHG Conversion Factor 2023,0.22616595704697987
-1273,Scope 1,Cars (by market segment),Sports,Plug-in Hybrid Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.08171453020134228
-1277,Scope 1,Cars (by market segment),Sports,Battery Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.0
-1281,Scope 1,Cars (by market segment),Sports,Diesel,,,,miles,GHG Conversion Factor 2023,0.2726856630872483
-1285,Scope 1,Cars (by market segment),Sports,Petrol,,,,miles,GHG Conversion Factor 2023,0.3816569718120805
-1289,Scope 1,Cars (by market segment),Sports,Unknown,,,,miles,GHG Conversion Factor 2023,0.3639841838926175
-1293,Scope 1,Cars (by market segment),Sports,Plug-in Hybrid Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.1315070268456376
-1297,Scope 1,Cars (by market segment),Sports,Battery Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.0
-1301,Scope 1,Cars (by market segment),Dual purpose 4X4,Diesel,,,,km,GHG Conversion Factor 2023,0.20194644888053692
-1305,Scope 1,Cars (by market segment),Dual purpose 4X4,Petrol,,,,km,GHG Conversion Factor 2023,0.20404853422818792
-1309,Scope 1,Cars (by market segment),Dual purpose 4X4,Unknown,,,,km,GHG Conversion Factor 2023,0.20270690738255034
-1313,Scope 1,Cars (by market segment),Dual purpose 4X4,Plug-in Hybrid Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.07096342281879195
-1317,Scope 1,Cars (by market segment),Dual purpose 4X4,Battery Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.0
-1321,Scope 1,Cars (by market segment),Dual purpose 4X4,Diesel,,,,miles,GHG Conversion Factor 2023,0.32500566308724826
-1325,Scope 1,Cars (by market segment),Dual purpose 4X4,Petrol,,,,miles,GHG Conversion Factor 2023,0.3283869718120805
-1329,Scope 1,Cars (by market segment),Dual purpose 4X4,Unknown,,,,miles,GHG Conversion Factor 2023,0.3262132429530202
-1333,Scope 1,Cars (by market segment),Dual purpose 4X4,Plug-in Hybrid Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.11420591946308727
-1337,Scope 1,Cars (by market segment),Dual purpose 4X4,Battery Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.0
-1341,Scope 1,Cars (by market segment),MPV,Diesel,,,,km,GHG Conversion Factor 2023,0.1765964488805369
-1345,Scope 1,Cars (by market segment),MPV,Petrol,,,,km,GHG Conversion Factor 2023,0.18425853422818791
-1349,Scope 1,Cars (by market segment),MPV,Unknown,,,,km,GHG Conversion Factor 2023,0.17864690738255035
-1353,Scope 1,Cars (by market segment),MPV,Plug-in Hybrid Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.05658268187919463
-1357,Scope 1,Cars (by market segment),MPV,Battery Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.0
-1361,Scope 1,Cars (by market segment),MPV,Diesel,,,,miles,GHG Conversion Factor 2023,0.28421566308724827
-1365,Scope 1,Cars (by market segment),MPV,Petrol,,,,miles,GHG Conversion Factor 2023,0.2965369718120805
-1369,Scope 1,Cars (by market segment),MPV,Unknown,,,,miles,GHG Conversion Factor 2023,0.28750324295302015
-1373,Scope 1,Cars (by market segment),MPV,Plug-in Hybrid Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.09106591543624161
-1377,Scope 1,Cars (by market segment),MPV,Battery Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.0
-1381,Scope 1,Cars (by size),Small car,Diesel,,,,km,GHG Conversion Factor 2023,0.13930644888053692
-1385,Scope 1,Cars (by size),Small car,Petrol,,,,km,GHG Conversion Factor 2023,0.14079853422818792
-1389,Scope 1,Cars (by size),Small car,Hybrid,,,,km,GHG Conversion Factor 2023,0.10149885771812081
-1393,Scope 1,Cars (by size),Small car,CNG,,,,km,GHG Conversion Factor 2023,
-1397,Scope 1,Cars (by size),Small car,LPG,,,,km,GHG Conversion Factor 2023,
-1401,Scope 1,Cars (by size),Small car,Unknown,,,,km,GHG Conversion Factor 2023,0.1403688577181208
-1405,Scope 1,Cars (by size),Small car,Plug-in Hybrid Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.021630648322147648
-1409,Scope 1,Cars (by size),Small car,Battery Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.0
-1413,Scope 1,Cars (by size),Small car,Diesel,,,,miles,GHG Conversion Factor 2023,0.2241956630872483
-1417,Scope 1,Cars (by size),Small car,Petrol,,,,miles,GHG Conversion Factor 2023,0.22659697181208052
-1421,Scope 1,Cars (by size),Small car,Hybrid,,,,miles,GHG Conversion Factor 2023,0.16335576644295302
-1425,Scope 1,Cars (by size),Small car,CNG,,,,miles,GHG Conversion Factor 2023,
-1429,Scope 1,Cars (by size),Small car,LPG,,,,miles,GHG Conversion Factor 2023,
-1433,Scope 1,Cars (by size),Small car,Unknown,,,,miles,GHG Conversion Factor 2023,0.22590576644295302
-1437,Scope 1,Cars (by size),Small car,Plug-in Hybrid Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.034812218791946306
-1441,Scope 1,Cars (by size),Small car,Battery Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.0
-1445,Scope 1,Cars (by size),Medium car,Diesel,,,,km,GHG Conversion Factor 2023,0.1671564488805369
-1449,Scope 1,Cars (by size),Medium car,Petrol,,,,km,GHG Conversion Factor 2023,0.17818853422818792
-1453,Scope 1,Cars (by size),Medium car,Hybrid,,,,km,GHG Conversion Factor 2023,0.10903843624161073
-1457,Scope 1,Cars (by size),Medium car,CNG,,,,km,GHG Conversion Factor 2023,0.15660419731543626
-1461,Scope 1,Cars (by size),Medium car,LPG,,,,km,GHG Conversion Factor 2023,0.17607059731543626
-1465,Scope 1,Cars (by size),Medium car,Unknown,,,,km,GHG Conversion Factor 2023,0.17245843624161075
-1469,Scope 1,Cars (by size),Medium car,Plug-in Hybrid Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.06144203758389262
-1473,Scope 1,Cars (by size),Medium car,Battery Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.0
-1477,Scope 1,Cars (by size),Medium car,Diesel,,,,miles,GHG Conversion Factor 2023,0.2690156630872483
-1481,Scope 1,Cars (by size),Medium car,Petrol,,,,miles,GHG Conversion Factor 2023,0.2867569718120805
-1485,Scope 1,Cars (by size),Medium car,Hybrid,,,,miles,GHG Conversion Factor 2023,0.1754895046979866
-1489,Scope 1,Cars (by size),Medium car,CNG,,,,miles,GHG Conversion Factor 2023,0.2520340201342282
-1493,Scope 1,Cars (by size),Medium car,LPG,,,,miles,GHG Conversion Factor 2023,0.2833576201342282
-1497,Scope 1,Cars (by size),Medium car,Unknown,,,,miles,GHG Conversion Factor 2023,0.2775395046979866
-1501,Scope 1,Cars (by size),Medium car,Plug-in Hybrid Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.09887444161073826
-1505,Scope 1,Cars (by size),Medium car,Battery Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.0
-1509,Scope 1,Cars (by size),Large car,Diesel,,,,km,GHG Conversion Factor 2023,0.20858644888053693
-1513,Scope 1,Cars (by size),Large car,Petrol,,,,km,GHG Conversion Factor 2023,0.27223853422818795
-1517,Scope 1,Cars (by size),Large car,Hybrid,,,,km,GHG Conversion Factor 2023,0.1524358
-1521,Scope 1,Cars (by size),Large car,CNG,,,,km,GHG Conversion Factor 2023,0.23845419731543627
-1525,Scope 1,Cars (by size),Large car,LPG,,,,km,GHG Conversion Factor 2023,0.26914059731543627
-1529,Scope 1,Cars (by size),Large car,Unknown,,,,km,GHG Conversion Factor 2023,0.2261158
-1533,Scope 1,Cars (by size),Large car,Plug-in Hybrid Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.07082231543624161
-1537,Scope 1,Cars (by size),Large car,Battery Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.0
-1541,Scope 1,Cars (by size),Large car,Diesel,,,,miles,GHG Conversion Factor 2023,0.3356956630872483
-1545,Scope 1,Cars (by size),Large car,Petrol,,,,miles,GHG Conversion Factor 2023,0.4381169718120805
-1549,Scope 1,Cars (by size),Large car,Hybrid,,,,miles,GHG Conversion Factor 2023,0.24530213557046981
-1553,Scope 1,Cars (by size),Large car,CNG,,,,miles,GHG Conversion Factor 2023,0.3837540201342282
-1557,Scope 1,Cars (by size),Large car,LPG,,,,miles,GHG Conversion Factor 2023,0.43313762013422824
-1561,Scope 1,Cars (by size),Large car,Unknown,,,,miles,GHG Conversion Factor 2023,0.3638921355704698
-1565,Scope 1,Cars (by size),Large car,Plug-in Hybrid Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.1139737046979866
-1569,Scope 1,Cars (by size),Large car,Battery Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.0
-1573,Scope 1,Cars (by size),Average car,Diesel,,,,km,GHG Conversion Factor 2023,0.1698264488805369
-1577,Scope 1,Cars (by size),Average car,Petrol,,,,km,GHG Conversion Factor 2023,0.1639085342281879
-1581,Scope 1,Cars (by size),Average car,Hybrid,,,,km,GHG Conversion Factor 2023,0.11897858791946307
-1585,Scope 1,Cars (by size),Average car,CNG,,,,km,GHG Conversion Factor 2023,0.17504419731543627
-1589,Scope 1,Cars (by size),Average car,LPG,,,,km,GHG Conversion Factor 2023,0.19704059731543624
-1593,Scope 1,Cars (by size),Average car,Unknown,,,,km,GHG Conversion Factor 2023,0.1666385879194631
-1597,Scope 1,Cars (by size),Average car,Plug-in Hybrid Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.06588213020134229
-1601,Scope 1,Cars (by size),Average car,Battery Electric Vehicle,,,,km,GHG Conversion Factor 2023,0.0
-1605,Scope 1,Cars (by size),Average car,Diesel,,,,miles,GHG Conversion Factor 2023,0.2733156630872483
-1609,Scope 1,Cars (by size),Average car,Petrol,,,,miles,GHG Conversion Factor 2023,0.2637869718120805
-1613,Scope 1,Cars (by size),Average car,Hybrid,,,,miles,GHG Conversion Factor 2023,0.19146750067114093
-1617,Scope 1,Cars (by size),Average car,CNG,,,,miles,GHG Conversion Factor 2023,0.28170402013422824
-1621,Scope 1,Cars (by size),Average car,LPG,,,,miles,GHG Conversion Factor 2023,0.3170976201342282
-1625,Scope 1,Cars (by size),Average car,Unknown,,,,miles,GHG Conversion Factor 2023,0.2681675006711409
-1629,Scope 1,Cars (by size),Average car,Plug-in Hybrid Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.1060145342281879
-1633,Scope 1,Cars (by size),Average car,Battery Electric Vehicle,,,,miles,GHG Conversion Factor 2023,0.0
-1637,Scope 1,Motorbike,Small,,,,,km,GHG Conversion Factor 2023,0.08318518657718121
-1641,Scope 1,Motorbike,Small,,,,,miles,GHG Conversion Factor 2023,0.1338927355704698
-1645,Scope 1,Motorbike,Medium,,,,,km,GHG Conversion Factor 2023,0.10107835704697987
-1649,Scope 1,Motorbike,Medium,,,,,miles,GHG Conversion Factor 2023,0.1626572912751678
-1653,Scope 1,Motorbike,Large,,,,,km,GHG Conversion Factor 2023,0.13251915704697986
-1657,Scope 1,Motorbike,Large,,,,,miles,GHG Conversion Factor 2023,0.2132620912751678
-1661,Scope 1,Motorbike,Average,,,,,km,GHG Conversion Factor 2023,0.1136742644295302
-1665,Scope 1,Motorbike,Average,,,,,miles,GHG Conversion Factor 2023,0.1829395986577181
-4187,Scope 3,Flights,"Domestic, to/from UK",,Average passenger,With RF,,passenger.km,GHG Conversion Factor 2023,0.2725767852348993
-4191,Scope 3,Flights,"Domestic, to/from UK",,Average passenger,Without RF,,passenger.km,GHG Conversion Factor 2023,0.16098678523489934
-4195,Scope 3,Flights,"Short-haul, to/from UK",,Average passenger,With RF,,passenger.km,GHG Conversion Factor 2023,0.1859171395973154
-4199,Scope 3,Flights,"Short-haul, to/from UK",,Average passenger,Without RF,,passenger.km,GHG Conversion Factor 2023,0.10973713959731544
-4203,Scope 3,Flights,"Short-haul, to/from UK",,Economy class,With RF,,passenger.km,GHG Conversion Factor 2023,0.1828693543624161
-4207,Scope 3,Flights,"Short-haul, to/from UK",,Economy class,Without RF,,passenger.km,GHG Conversion Factor 2023,0.10793935436241611
-4211,Scope 3,Flights,"Short-haul, to/from UK",,Business class,With RF,,passenger.km,GHG Conversion Factor 2023,0.274302877852349
-4215,Scope 3,Flights,"Short-haul, to/from UK",,Business class,Without RF,,passenger.km,GHG Conversion Factor 2023,0.16191287785234898
-4219,Scope 3,Flights,"Long-haul, to/from UK",,Average passenger,With RF,,passenger.km,GHG Conversion Factor 2023,0.2612806295302013
-4223,Scope 3,Flights,"Long-haul, to/from UK",,Average passenger,Without RF,,passenger.km,GHG Conversion Factor 2023,0.15423062953020134
-4227,Scope 3,Flights,"Long-haul, to/from UK",,Economy class,With RF,,passenger.km,GHG Conversion Factor 2023,0.20010828053691276
-4231,Scope 3,Flights,"Long-haul, to/from UK",,Economy class,Without RF,,passenger.km,GHG Conversion Factor 2023,0.11811828053691276
-4235,Scope 3,Flights,"Long-haul, to/from UK",,Premium economy class,With RF,,passenger.km,GHG Conversion Factor 2023,0.3201551932885906
-4239,Scope 3,Flights,"Long-haul, to/from UK",,Premium economy class,Without RF,,passenger.km,GHG Conversion Factor 2023,0.18897519328859058
-4243,Scope 3,Flights,"Long-haul, to/from UK",,Business class,With RF,,passenger.km,GHG Conversion Factor 2023,0.5802869302013423
-4247,Scope 3,Flights,"Long-haul, to/from UK",,Business class,Without RF,,passenger.km,GHG Conversion Factor 2023,0.3425269302013423
-4251,Scope 3,Flights,"Long-haul, to/from UK",,First class,With RF,,passenger.km,GHG Conversion Factor 2023,0.8004030295302013
-4255,Scope 3,Flights,"Long-haul, to/from UK",,First class,Without RF,,passenger.km,GHG Conversion Factor 2023,0.47246302953020136
-4259,Scope 3,Flights,"International, to/from non-UK",,Average passenger,With RF,,passenger.km,GHG Conversion Factor 2023,0.17580378389261744
-4263,Scope 3,Flights,"International, to/from non-UK",,Average passenger,Without RF,,passenger.km,GHG Conversion Factor 2023,0.10377378389261746
-4267,Scope 3,Flights,"International, to/from non-UK",,Economy class,With RF,,passenger.km,GHG Conversion Factor 2023,0.13464333030872483
-4271,Scope 3,Flights,"International, to/from non-UK",,Economy class,Without RF,,passenger.km,GHG Conversion Factor 2023,0.07947333030872483
-4275,Scope 3,Flights,"International, to/from non-UK",,Premium economy class,With RF,,passenger.km,GHG Conversion Factor 2023,0.21541942147651008
-4279,Scope 3,Flights,"International, to/from non-UK",,Premium economy class,Without RF,,passenger.km,GHG Conversion Factor 2023,0.12715942147651008
-4283,Scope 3,Flights,"International, to/from non-UK",,Business class,With RF,,passenger.km,GHG Conversion Factor 2023,0.3904432053691275
-4287,Scope 3,Flights,"International, to/from non-UK",,Business class,Without RF,,passenger.km,GHG Conversion Factor 2023,0.23047320536912752
-4291,Scope 3,Flights,"International, to/from non-UK",,First class,With RF,,passenger.km,GHG Conversion Factor 2023,0.5385424
-4295,Scope 3,Flights,"International, to/from non-UK",,First class,Without RF,,passenger.km,GHG Conversion Factor 2023,0.31789239999999996
-4327,Scope 3,Ferry,Foot passenger,,,,,passenger.km,GHG Conversion Factor 2023,0.018710813959731544
-4331,Scope 3,Ferry,Car passenger,,,,,passenger.km,GHG Conversion Factor 2023,0.1293288754362416
-4335,Scope 3,Ferry,Average (all passenger),,,,,passenger.km,GHG Conversion Factor 2023,0.11269808080536912
-4958,Scope 3,Motorbike,Small,,,,,km,GHG Conversion Factor 2023,0.08318518657718121
-4962,Scope 3,Motorbike,Small,,,,,miles,GHG Conversion Factor 2023,0.1338927355704698
-4966,Scope 3,Motorbike,Medium,,,,,km,GHG Conversion Factor 2023,0.10107835704697987
-4970,Scope 3,Motorbike,Medium,,,,,miles,GHG Conversion Factor 2023,0.1626572912751678
-4974,Scope 3,Motorbike,Large,,,,,km,GHG Conversion Factor 2023,0.13251915704697986
-4978,Scope 3,Motorbike,Large,,,,,miles,GHG Conversion Factor 2023,0.2132620912751678
-4982,Scope 3,Motorbike,Average,,,,,km,GHG Conversion Factor 2023,0.1136742644295302
-4986,Scope 3,Motorbike,Average,,,,,miles,GHG Conversion Factor 2023,0.1829395986577181
-4990,Scope 3,Taxis,Regular taxi,,,,,passenger.km,GHG Conversion Factor 2023,0.148614925938255
-4994,Scope 3,Taxis,Regular taxi,,,,,km,GHG Conversion Factor 2023,0.20805644888053693
-4998,Scope 3,Taxis,Black cab,,,,,passenger.km,GHG Conversion Factor 2023,0.20402466838120806
-5002,Scope 3,Taxis,Black cab,,,,,km,GHG Conversion Factor 2023,0.30603644888053694
-5006,Scope 3,Bus,Local bus (not London),,,,,passenger.km,GHG Conversion Factor 2023,0.11836276912751678
-5010,Scope 3,Bus,Local London bus,,,,,passenger.km,GHG Conversion Factor 2023,0.07832250872483222
-5014,Scope 3,Bus,Average local bus,,,,,passenger.km,GHG Conversion Factor 2023,0.10215039463087248
-5018,Scope 3,Bus,Coach,,,,,passenger.km,GHG Conversion Factor 2023,0.027181401342281877
-5022,Scope 3,Rail,National rail,,,,,passenger.km,GHG Conversion Factor 2023,0.03546296375838926
-5026,Scope 3,Rail,International rail,,,,,passenger.km,GHG Conversion Factor 2023,0.004459077852348993
-5030,Scope 3,Rail,Light rail and tram,,,,,passenger.km,GHG Conversion Factor 2023,0.02860326711409396
-5034,Scope 3,Rail,London Underground,,,,,passenger.km,GHG Conversion Factor 2023,0.02780206711409396
+1021,Scope 1,Cars (by market segment),Mini,Diesel,,,kg CO2e,km,GHG Conversion Factor 2023,0.10774644888053692
+1025,Scope 1,Cars (by market segment),Mini,Petrol,,,kg CO2e,km,GHG Conversion Factor 2023,0.13029853422818793
+1029,Scope 1,Cars (by market segment),Mini,Unknown,,,kg CO2e,km,GHG Conversion Factor 2023,0.13010511946308725
+1033,Scope 1,Cars (by market segment),Mini,Plug-in Hybrid Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,
+1037,Scope 1,Cars (by market segment),Mini,Battery Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.0
+1041,Scope 1,Cars (by market segment),Mini,Diesel,,,kg CO2e,miles,GHG Conversion Factor 2023,0.17341566308724832
+1045,Scope 1,Cars (by market segment),Mini,Petrol,,,kg CO2e,miles,GHG Conversion Factor 2023,0.20968697181208054
+1049,Scope 1,Cars (by market segment),Mini,Unknown,,,kg CO2e,miles,GHG Conversion Factor 2023,0.20938244966442954
+1053,Scope 1,Cars (by market segment),Mini,Plug-in Hybrid Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,
+1057,Scope 1,Cars (by market segment),Mini,Battery Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.0
+1061,Scope 1,Cars (by market segment),Supermini,Diesel,,,kg CO2e,km,GHG Conversion Factor 2023,0.13214644888053692
+1065,Scope 1,Cars (by market segment),Supermini,Petrol,,,kg CO2e,km,GHG Conversion Factor 2023,0.14168853422818792
+1069,Scope 1,Cars (by market segment),Supermini,Unknown,,,kg CO2e,km,GHG Conversion Factor 2023,0.1404870644295302
+1073,Scope 1,Cars (by market segment),Supermini,Plug-in Hybrid Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.021630648322147648
+1077,Scope 1,Cars (by market segment),Supermini,Battery Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.0
+1081,Scope 1,Cars (by market segment),Supermini,Diesel,,,kg CO2e,miles,GHG Conversion Factor 2023,0.2126756630872483
+1085,Scope 1,Cars (by market segment),Supermini,Petrol,,,kg CO2e,miles,GHG Conversion Factor 2023,0.22802697181208054
+1089,Scope 1,Cars (by market segment),Supermini,Unknown,,,kg CO2e,miles,GHG Conversion Factor 2023,0.2260963986577181
+1093,Scope 1,Cars (by market segment),Supermini,Plug-in Hybrid Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.034812218791946306
+1097,Scope 1,Cars (by market segment),Supermini,Battery Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.0
+1101,Scope 1,Cars (by market segment),Lower medium,Diesel,,,kg CO2e,km,GHG Conversion Factor 2023,0.1434564488805369
+1105,Scope 1,Cars (by market segment),Lower medium,Petrol,,,kg CO2e,km,GHG Conversion Factor 2023,0.16472853422818792
+1109,Scope 1,Cars (by market segment),Lower medium,Unknown,,,kg CO2e,km,GHG Conversion Factor 2023,0.1552051731543624
+1113,Scope 1,Cars (by market segment),Lower medium,Plug-in Hybrid Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.05975425234899329
+1117,Scope 1,Cars (by market segment),Lower medium,Battery Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.0
+1121,Scope 1,Cars (by market segment),Lower medium,Diesel,,,kg CO2e,miles,GHG Conversion Factor 2023,0.23087566308724833
+1125,Scope 1,Cars (by market segment),Lower medium,Petrol,,,kg CO2e,miles,GHG Conversion Factor 2023,0.26509697181208053
+1129,Scope 1,Cars (by market segment),Lower medium,Unknown,,,kg CO2e,miles,GHG Conversion Factor 2023,0.24977187114093957
+1133,Scope 1,Cars (by market segment),Lower medium,Plug-in Hybrid Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.09618665637583894
+1137,Scope 1,Cars (by market segment),Lower medium,Battery Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.0
+1141,Scope 1,Cars (by market segment),Upper medium,Diesel,,,kg CO2e,km,GHG Conversion Factor 2023,0.1604964488805369
+1145,Scope 1,Cars (by market segment),Upper medium,Petrol,,,kg CO2e,km,GHG Conversion Factor 2023,0.1921085342281879
+1149,Scope 1,Cars (by market segment),Upper medium,Unknown,,,kg CO2e,km,GHG Conversion Factor 2023,0.16793564832214766
+1153,Scope 1,Cars (by market segment),Upper medium,Plug-in Hybrid Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.06310213020134228
+1157,Scope 1,Cars (by market segment),Upper medium,Battery Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.0
+1161,Scope 1,Cars (by market segment),Upper medium,Diesel,,,kg CO2e,miles,GHG Conversion Factor 2023,0.2582956630872483
+1165,Scope 1,Cars (by market segment),Upper medium,Petrol,,,kg CO2e,miles,GHG Conversion Factor 2023,0.3091669718120805
+1169,Scope 1,Cars (by market segment),Upper medium,Unknown,,,kg CO2e,miles,GHG Conversion Factor 2023,0.2702563543624161
+1173,Scope 1,Cars (by market segment),Upper medium,Plug-in Hybrid Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.10157231946308726
+1177,Scope 1,Cars (by market segment),Upper medium,Battery Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.0
+1181,Scope 1,Cars (by market segment),Executive,Diesel,,,kg CO2e,km,GHG Conversion Factor 2023,0.1730964488805369
+1185,Scope 1,Cars (by market segment),Executive,Petrol,,,kg CO2e,km,GHG Conversion Factor 2023,0.21231853422818792
+1189,Scope 1,Cars (by market segment),Executive,Unknown,,,kg CO2e,km,GHG Conversion Factor 2023,0.182641277852349
+1193,Scope 1,Cars (by market segment),Executive,Plug-in Hybrid Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.06649650067114093
+1197,Scope 1,Cars (by market segment),Executive,Battery Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.0
+1201,Scope 1,Cars (by market segment),Executive,Diesel,,,kg CO2e,miles,GHG Conversion Factor 2023,0.2785856630872483
+1205,Scope 1,Cars (by market segment),Executive,Petrol,,,kg CO2e,miles,GHG Conversion Factor 2023,0.3416869718120805
+1209,Scope 1,Cars (by market segment),Executive,Unknown,,,kg CO2e,miles,GHG Conversion Factor 2023,0.2939342912751678
+1213,Scope 1,Cars (by market segment),Executive,Plug-in Hybrid Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.10702558255033558
+1217,Scope 1,Cars (by market segment),Executive,Battery Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.0
+1221,Scope 1,Cars (by market segment),Luxury,Diesel,,,kg CO2e,km,GHG Conversion Factor 2023,0.21119644888053693
+1225,Scope 1,Cars (by market segment),Luxury,Petrol,,,kg CO2e,km,GHG Conversion Factor 2023,0.31808853422818795
+1229,Scope 1,Cars (by market segment),Luxury,Unknown,,,kg CO2e,km,GHG Conversion Factor 2023,0.2598695436241611
+1233,Scope 1,Cars (by market segment),Luxury,Plug-in Hybrid Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.0902061932885906
+1237,Scope 1,Cars (by market segment),Luxury,Battery Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.0
+1241,Scope 1,Cars (by market segment),Luxury,Diesel,,,kg CO2e,miles,GHG Conversion Factor 2023,0.3398956630872483
+1245,Scope 1,Cars (by market segment),Luxury,Petrol,,,kg CO2e,miles,GHG Conversion Factor 2023,0.5118969718120805
+1249,Scope 1,Cars (by market segment),Luxury,Unknown,,,kg CO2e,miles,GHG Conversion Factor 2023,0.41822291946308726
+1253,Scope 1,Cars (by market segment),Luxury,Plug-in Hybrid Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.1451689677852349
+1257,Scope 1,Cars (by market segment),Luxury,Battery Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.0
+1261,Scope 1,Cars (by market segment),Sports,Diesel,,,kg CO2e,km,GHG Conversion Factor 2023,0.1694364488805369
+1265,Scope 1,Cars (by market segment),Sports,Petrol,,,kg CO2e,km,GHG Conversion Factor 2023,0.23715853422818792
+1269,Scope 1,Cars (by market segment),Sports,Unknown,,,kg CO2e,km,GHG Conversion Factor 2023,0.22616595704697987
+1273,Scope 1,Cars (by market segment),Sports,Plug-in Hybrid Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.08171453020134228
+1277,Scope 1,Cars (by market segment),Sports,Battery Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.0
+1281,Scope 1,Cars (by market segment),Sports,Diesel,,,kg CO2e,miles,GHG Conversion Factor 2023,0.2726856630872483
+1285,Scope 1,Cars (by market segment),Sports,Petrol,,,kg CO2e,miles,GHG Conversion Factor 2023,0.3816569718120805
+1289,Scope 1,Cars (by market segment),Sports,Unknown,,,kg CO2e,miles,GHG Conversion Factor 2023,0.3639841838926175
+1293,Scope 1,Cars (by market segment),Sports,Plug-in Hybrid Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.1315070268456376
+1297,Scope 1,Cars (by market segment),Sports,Battery Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.0
+1301,Scope 1,Cars (by market segment),Dual purpose 4X4,Diesel,,,kg CO2e,km,GHG Conversion Factor 2023,0.20194644888053692
+1305,Scope 1,Cars (by market segment),Dual purpose 4X4,Petrol,,,kg CO2e,km,GHG Conversion Factor 2023,0.20404853422818792
+1309,Scope 1,Cars (by market segment),Dual purpose 4X4,Unknown,,,kg CO2e,km,GHG Conversion Factor 2023,0.20270690738255034
+1313,Scope 1,Cars (by market segment),Dual purpose 4X4,Plug-in Hybrid Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.07096342281879195
+1317,Scope 1,Cars (by market segment),Dual purpose 4X4,Battery Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.0
+1321,Scope 1,Cars (by market segment),Dual purpose 4X4,Diesel,,,kg CO2e,miles,GHG Conversion Factor 2023,0.32500566308724826
+1325,Scope 1,Cars (by market segment),Dual purpose 4X4,Petrol,,,kg CO2e,miles,GHG Conversion Factor 2023,0.3283869718120805
+1329,Scope 1,Cars (by market segment),Dual purpose 4X4,Unknown,,,kg CO2e,miles,GHG Conversion Factor 2023,0.3262132429530202
+1333,Scope 1,Cars (by market segment),Dual purpose 4X4,Plug-in Hybrid Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.11420591946308727
+1337,Scope 1,Cars (by market segment),Dual purpose 4X4,Battery Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.0
+1341,Scope 1,Cars (by market segment),MPV,Diesel,,,kg CO2e,km,GHG Conversion Factor 2023,0.1765964488805369
+1345,Scope 1,Cars (by market segment),MPV,Petrol,,,kg CO2e,km,GHG Conversion Factor 2023,0.18425853422818791
+1349,Scope 1,Cars (by market segment),MPV,Unknown,,,kg CO2e,km,GHG Conversion Factor 2023,0.17864690738255035
+1353,Scope 1,Cars (by market segment),MPV,Plug-in Hybrid Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.05658268187919463
+1357,Scope 1,Cars (by market segment),MPV,Battery Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.0
+1361,Scope 1,Cars (by market segment),MPV,Diesel,,,kg CO2e,miles,GHG Conversion Factor 2023,0.28421566308724827
+1365,Scope 1,Cars (by market segment),MPV,Petrol,,,kg CO2e,miles,GHG Conversion Factor 2023,0.2965369718120805
+1369,Scope 1,Cars (by market segment),MPV,Unknown,,,kg CO2e,miles,GHG Conversion Factor 2023,0.28750324295302015
+1373,Scope 1,Cars (by market segment),MPV,Plug-in Hybrid Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.09106591543624161
+1377,Scope 1,Cars (by market segment),MPV,Battery Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.0
+1381,Scope 1,Cars (by size),Small car,Diesel,,,kg CO2e,km,GHG Conversion Factor 2023,0.13930644888053692
+1385,Scope 1,Cars (by size),Small car,Petrol,,,kg CO2e,km,GHG Conversion Factor 2023,0.14079853422818792
+1389,Scope 1,Cars (by size),Small car,Hybrid,,,kg CO2e,km,GHG Conversion Factor 2023,0.10149885771812081
+1393,Scope 1,Cars (by size),Small car,CNG,,,kg CO2e,km,GHG Conversion Factor 2023,
+1397,Scope 1,Cars (by size),Small car,LPG,,,kg CO2e,km,GHG Conversion Factor 2023,
+1401,Scope 1,Cars (by size),Small car,Unknown,,,kg CO2e,km,GHG Conversion Factor 2023,0.1403688577181208
+1405,Scope 1,Cars (by size),Small car,Plug-in Hybrid Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.021630648322147648
+1409,Scope 1,Cars (by size),Small car,Battery Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.0
+1413,Scope 1,Cars (by size),Small car,Diesel,,,kg CO2e,miles,GHG Conversion Factor 2023,0.2241956630872483
+1417,Scope 1,Cars (by size),Small car,Petrol,,,kg CO2e,miles,GHG Conversion Factor 2023,0.22659697181208052
+1421,Scope 1,Cars (by size),Small car,Hybrid,,,kg CO2e,miles,GHG Conversion Factor 2023,0.16335576644295302
+1425,Scope 1,Cars (by size),Small car,CNG,,,kg CO2e,miles,GHG Conversion Factor 2023,
+1429,Scope 1,Cars (by size),Small car,LPG,,,kg CO2e,miles,GHG Conversion Factor 2023,
+1433,Scope 1,Cars (by size),Small car,Unknown,,,kg CO2e,miles,GHG Conversion Factor 2023,0.22590576644295302
+1437,Scope 1,Cars (by size),Small car,Plug-in Hybrid Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.034812218791946306
+1441,Scope 1,Cars (by size),Small car,Battery Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.0
+1445,Scope 1,Cars (by size),Medium car,Diesel,,,kg CO2e,km,GHG Conversion Factor 2023,0.1671564488805369
+1449,Scope 1,Cars (by size),Medium car,Petrol,,,kg CO2e,km,GHG Conversion Factor 2023,0.17818853422818792
+1453,Scope 1,Cars (by size),Medium car,Hybrid,,,kg CO2e,km,GHG Conversion Factor 2023,0.10903843624161073
+1457,Scope 1,Cars (by size),Medium car,CNG,,,kg CO2e,km,GHG Conversion Factor 2023,0.15660419731543626
+1461,Scope 1,Cars (by size),Medium car,LPG,,,kg CO2e,km,GHG Conversion Factor 2023,0.17607059731543626
+1465,Scope 1,Cars (by size),Medium car,Unknown,,,kg CO2e,km,GHG Conversion Factor 2023,0.17245843624161075
+1469,Scope 1,Cars (by size),Medium car,Plug-in Hybrid Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.06144203758389262
+1473,Scope 1,Cars (by size),Medium car,Battery Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.0
+1477,Scope 1,Cars (by size),Medium car,Diesel,,,kg CO2e,miles,GHG Conversion Factor 2023,0.2690156630872483
+1481,Scope 1,Cars (by size),Medium car,Petrol,,,kg CO2e,miles,GHG Conversion Factor 2023,0.2867569718120805
+1485,Scope 1,Cars (by size),Medium car,Hybrid,,,kg CO2e,miles,GHG Conversion Factor 2023,0.1754895046979866
+1489,Scope 1,Cars (by size),Medium car,CNG,,,kg CO2e,miles,GHG Conversion Factor 2023,0.2520340201342282
+1493,Scope 1,Cars (by size),Medium car,LPG,,,kg CO2e,miles,GHG Conversion Factor 2023,0.2833576201342282
+1497,Scope 1,Cars (by size),Medium car,Unknown,,,kg CO2e,miles,GHG Conversion Factor 2023,0.2775395046979866
+1501,Scope 1,Cars (by size),Medium car,Plug-in Hybrid Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.09887444161073826
+1505,Scope 1,Cars (by size),Medium car,Battery Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.0
+1509,Scope 1,Cars (by size),Large car,Diesel,,,kg CO2e,km,GHG Conversion Factor 2023,0.20858644888053693
+1513,Scope 1,Cars (by size),Large car,Petrol,,,kg CO2e,km,GHG Conversion Factor 2023,0.27223853422818795
+1517,Scope 1,Cars (by size),Large car,Hybrid,,,kg CO2e,km,GHG Conversion Factor 2023,0.1524358
+1521,Scope 1,Cars (by size),Large car,CNG,,,kg CO2e,km,GHG Conversion Factor 2023,0.23845419731543627
+1525,Scope 1,Cars (by size),Large car,LPG,,,kg CO2e,km,GHG Conversion Factor 2023,0.26914059731543627
+1529,Scope 1,Cars (by size),Large car,Unknown,,,kg CO2e,km,GHG Conversion Factor 2023,0.2261158
+1533,Scope 1,Cars (by size),Large car,Plug-in Hybrid Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.07082231543624161
+1537,Scope 1,Cars (by size),Large car,Battery Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.0
+1541,Scope 1,Cars (by size),Large car,Diesel,,,kg CO2e,miles,GHG Conversion Factor 2023,0.3356956630872483
+1545,Scope 1,Cars (by size),Large car,Petrol,,,kg CO2e,miles,GHG Conversion Factor 2023,0.4381169718120805
+1549,Scope 1,Cars (by size),Large car,Hybrid,,,kg CO2e,miles,GHG Conversion Factor 2023,0.24530213557046981
+1553,Scope 1,Cars (by size),Large car,CNG,,,kg CO2e,miles,GHG Conversion Factor 2023,0.3837540201342282
+1557,Scope 1,Cars (by size),Large car,LPG,,,kg CO2e,miles,GHG Conversion Factor 2023,0.43313762013422824
+1561,Scope 1,Cars (by size),Large car,Unknown,,,kg CO2e,miles,GHG Conversion Factor 2023,0.3638921355704698
+1565,Scope 1,Cars (by size),Large car,Plug-in Hybrid Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.1139737046979866
+1569,Scope 1,Cars (by size),Large car,Battery Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.0
+1573,Scope 1,Cars (by size),Average car,Diesel,,,kg CO2e,km,GHG Conversion Factor 2023,0.1698264488805369
+1577,Scope 1,Cars (by size),Average car,Petrol,,,kg CO2e,km,GHG Conversion Factor 2023,0.1639085342281879
+1581,Scope 1,Cars (by size),Average car,Hybrid,,,kg CO2e,km,GHG Conversion Factor 2023,0.11897858791946307
+1585,Scope 1,Cars (by size),Average car,CNG,,,kg CO2e,km,GHG Conversion Factor 2023,0.17504419731543627
+1589,Scope 1,Cars (by size),Average car,LPG,,,kg CO2e,km,GHG Conversion Factor 2023,0.19704059731543624
+1593,Scope 1,Cars (by size),Average car,Unknown,,,kg CO2e,km,GHG Conversion Factor 2023,0.1666385879194631
+1597,Scope 1,Cars (by size),Average car,Plug-in Hybrid Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.06588213020134229
+1601,Scope 1,Cars (by size),Average car,Battery Electric Vehicle,,,kg CO2e,km,GHG Conversion Factor 2023,0.0
+1605,Scope 1,Cars (by size),Average car,Diesel,,,kg CO2e,miles,GHG Conversion Factor 2023,0.2733156630872483
+1609,Scope 1,Cars (by size),Average car,Petrol,,,kg CO2e,miles,GHG Conversion Factor 2023,0.2637869718120805
+1613,Scope 1,Cars (by size),Average car,Hybrid,,,kg CO2e,miles,GHG Conversion Factor 2023,0.19146750067114093
+1617,Scope 1,Cars (by size),Average car,CNG,,,kg CO2e,miles,GHG Conversion Factor 2023,0.28170402013422824
+1621,Scope 1,Cars (by size),Average car,LPG,,,kg CO2e,miles,GHG Conversion Factor 2023,0.3170976201342282
+1625,Scope 1,Cars (by size),Average car,Unknown,,,kg CO2e,miles,GHG Conversion Factor 2023,0.2681675006711409
+1629,Scope 1,Cars (by size),Average car,Plug-in Hybrid Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.1060145342281879
+1633,Scope 1,Cars (by size),Average car,Battery Electric Vehicle,,,kg CO2e,miles,GHG Conversion Factor 2023,0.0
+1637,Scope 1,Motorbike,Small,,,,kg CO2e,km,GHG Conversion Factor 2023,0.08318518657718121
+1641,Scope 1,Motorbike,Small,,,,kg CO2e,miles,GHG Conversion Factor 2023,0.1338927355704698
+1645,Scope 1,Motorbike,Medium,,,,kg CO2e,km,GHG Conversion Factor 2023,0.10107835704697987
+1649,Scope 1,Motorbike,Medium,,,,kg CO2e,miles,GHG Conversion Factor 2023,0.1626572912751678
+1653,Scope 1,Motorbike,Large,,,,kg CO2e,km,GHG Conversion Factor 2023,0.13251915704697986
+1657,Scope 1,Motorbike,Large,,,,kg CO2e,miles,GHG Conversion Factor 2023,0.2132620912751678
+1661,Scope 1,Motorbike,Average,,,,kg CO2e,km,GHG Conversion Factor 2023,0.1136742644295302
+1665,Scope 1,Motorbike,Average,,,,kg CO2e,miles,GHG Conversion Factor 2023,0.1829395986577181
+4187,Scope 3,Flights,"Domestic, to/from UK",,Average passenger,With RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.2725767852348993
+4191,Scope 3,Flights,"Domestic, to/from UK",,Average passenger,Without RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.16098678523489934
+4195,Scope 3,Flights,"Short-haul, to/from UK",,Average passenger,With RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.1859171395973154
+4199,Scope 3,Flights,"Short-haul, to/from UK",,Average passenger,Without RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.10973713959731544
+4203,Scope 3,Flights,"Short-haul, to/from UK",,Economy class,With RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.1828693543624161
+4207,Scope 3,Flights,"Short-haul, to/from UK",,Economy class,Without RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.10793935436241611
+4211,Scope 3,Flights,"Short-haul, to/from UK",,Business class,With RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.274302877852349
+4215,Scope 3,Flights,"Short-haul, to/from UK",,Business class,Without RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.16191287785234898
+4219,Scope 3,Flights,"Long-haul, to/from UK",,Average passenger,With RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.2612806295302013
+4223,Scope 3,Flights,"Long-haul, to/from UK",,Average passenger,Without RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.15423062953020134
+4227,Scope 3,Flights,"Long-haul, to/from UK",,Economy class,With RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.20010828053691276
+4231,Scope 3,Flights,"Long-haul, to/from UK",,Economy class,Without RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.11811828053691276
+4235,Scope 3,Flights,"Long-haul, to/from UK",,Premium economy class,With RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.3201551932885906
+4239,Scope 3,Flights,"Long-haul, to/from UK",,Premium economy class,Without RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.18897519328859058
+4243,Scope 3,Flights,"Long-haul, to/from UK",,Business class,With RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.5802869302013423
+4247,Scope 3,Flights,"Long-haul, to/from UK",,Business class,Without RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.3425269302013423
+4251,Scope 3,Flights,"Long-haul, to/from UK",,First class,With RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.8004030295302013
+4255,Scope 3,Flights,"Long-haul, to/from UK",,First class,Without RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.47246302953020136
+4259,Scope 3,Flights,"International, to/from non-UK",,Average passenger,With RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.17580378389261744
+4263,Scope 3,Flights,"International, to/from non-UK",,Average passenger,Without RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.10377378389261746
+4267,Scope 3,Flights,"International, to/from non-UK",,Economy class,With RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.13464333030872483
+4271,Scope 3,Flights,"International, to/from non-UK",,Economy class,Without RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.07947333030872483
+4275,Scope 3,Flights,"International, to/from non-UK",,Premium economy class,With RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.21541942147651008
+4279,Scope 3,Flights,"International, to/from non-UK",,Premium economy class,Without RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.12715942147651008
+4283,Scope 3,Flights,"International, to/from non-UK",,Business class,With RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.3904432053691275
+4287,Scope 3,Flights,"International, to/from non-UK",,Business class,Without RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.23047320536912752
+4291,Scope 3,Flights,"International, to/from non-UK",,First class,With RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.5385424
+4295,Scope 3,Flights,"International, to/from non-UK",,First class,Without RF,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.31789239999999996
+4327,Scope 3,Ferry,Foot passenger,,,,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.018710813959731544
+4331,Scope 3,Ferry,Car passenger,,,,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.1293288754362416
+4335,Scope 3,Ferry,Average (all passenger),,,,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.11269808080536912
+4958,Scope 3,Motorbike,Small,,,,kg CO2e,km,GHG Conversion Factor 2023,0.08318518657718121
+4962,Scope 3,Motorbike,Small,,,,kg CO2e,miles,GHG Conversion Factor 2023,0.1338927355704698
+4966,Scope 3,Motorbike,Medium,,,,kg CO2e,km,GHG Conversion Factor 2023,0.10107835704697987
+4970,Scope 3,Motorbike,Medium,,,,kg CO2e,miles,GHG Conversion Factor 2023,0.1626572912751678
+4974,Scope 3,Motorbike,Large,,,,kg CO2e,km,GHG Conversion Factor 2023,0.13251915704697986
+4978,Scope 3,Motorbike,Large,,,,kg CO2e,miles,GHG Conversion Factor 2023,0.2132620912751678
+4982,Scope 3,Motorbike,Average,,,,kg CO2e,km,GHG Conversion Factor 2023,0.1136742644295302
+4986,Scope 3,Motorbike,Average,,,,kg CO2e,miles,GHG Conversion Factor 2023,0.1829395986577181
+4990,Scope 3,Taxis,Regular taxi,,,,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.148614925938255
+4994,Scope 3,Taxis,Regular taxi,,,,kg CO2e,km,GHG Conversion Factor 2023,0.20805644888053693
+4998,Scope 3,Taxis,Black cab,,,,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.20402466838120806
+5002,Scope 3,Taxis,Black cab,,,,kg CO2e,km,GHG Conversion Factor 2023,0.30603644888053694
+5006,Scope 3,Bus,Local bus (not London),,,,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.11836276912751678
+5010,Scope 3,Bus,Local London bus,,,,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.07832250872483222
+5014,Scope 3,Bus,Average local bus,,,,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.10215039463087248
+5018,Scope 3,Bus,Coach,,,,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.027181401342281877
+5022,Scope 3,Rail,National rail,,,,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.03546296375838926
+5026,Scope 3,Rail,International rail,,,,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.004459077852348993
+5030,Scope 3,Rail,Light rail and tram,,,,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.02860326711409396
+5034,Scope 3,Rail,London Underground,,,,kg CO2e,passenger.km,GHG Conversion Factor 2023,0.02780206711409396

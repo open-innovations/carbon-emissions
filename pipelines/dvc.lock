@@ -62,13 +62,13 @@ stages:
       size: 374206
     - path: pipelines/flat_transform.py
       hash: md5
-      md5: 5ce47d078d508e0a6a9bc31dc8b2a414
+      md5: 00f26990ae44d29f88676215564d83d2
       size: 2197
     outs:
     - path: data/emission_factors.csv
       hash: md5
-      md5: 8012f2dbc5142e1f79fb90565c909d4b
-      size: 23411
+      md5: da1af34dc00700069eb32d07d5ebd030
+      size: 24902
       isexec: true
   info:
     cmd: PYTHONPATH=. python pipelines/info.py

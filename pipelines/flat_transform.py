@@ -36,7 +36,7 @@ def transform(data):
     data['variable_name'] = 'GHG Conversion Factor 2023'
 
     # rename columns
-    renames = {'UOM': 'distance_unit', 'Level 2': 'activity', 'Level 3': 'type', 'Level 4': 'flight_class', 'GHG/unit': 'ghg_unit', 'GHG Conversion Factor 2023':'value', 'Column Text': 'fuel_type'}
+    renames = {'UOM': 'distance_unit', 'Level 2': 'activity', 'Level 3': 'type', 'Level 4': 'flight_class', 'GHG/Unit': 'ghg_unit', 'GHG Conversion Factor 2023':'value', 'Column Text': 'fuel_type'}
     data.rename(columns=renames, inplace=True)
 
     # re-order columns
