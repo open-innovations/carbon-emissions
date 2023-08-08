@@ -1,0 +1,13 @@
+md5: 85413be69bccc17cbbd46abb0341b8f2
+frozen: true
+deps:
+- checksum: '"649c5340-1cc629"'
+  size: 1885737
+  hash: md5
+  path: 
+    https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1166236/ghg-conversion-factors-2023-condensed-set-update.xlsx
+outs:
+- md5: a0e92e85f34310cbc83d97bf0cbc164d
+  size: 1918193
+  hash: md5
+  path: gov_emissions.xlsx
