@@ -1,5 +1,0 @@
-,Activity,Type,Unit,kg CO2e
-0,Flights,"Domestic, to/from UK",passenger.km,0.2725767852348993
-1,Flights,"Short-haul, to/from UK",passenger.km,0.1859171395973154
-4,Flights,"Long-haul, to/from UK",passenger.km,0.2612806295302013
-9,Flights,"International, to/from non-UK",passenger.km,0.17580378389261744
