@@ -18,62 +18,22 @@ stages:
     deps:
     - path: data-raw/gov_emissions.xlsx
       hash: md5
-      md5: f572d00b49283adb48ca155999a5e22a
-      size: 1917327
+      md5: a0e92e85f34310cbc83d97bf0cbc164d
+      size: 1918193
     - path: pipelines/transform.py
       hash: md5
-      md5: f25b7965aafbeea9cb6591d8d6e18ed3
-      size: 6619
+      md5: c21be019f579b1c28a4a863c5154d571
+      size: 6676
     outs:
-    - path: data/transformed/air_travel.csv
-      hash: md5
-      md5: 0c3ff9cd327635d94526ecb17459fff9
-      size: 301
-      isexec: true
-    - path: data/transformed/air_travel_info.csv
+    - path: data/info/air_travel_info.csv
       hash: md5
       md5: 6b0f9de08aecd0f264f2773a361833a5
       size: 411
       isexec: true
-    - path: data/transformed/buses.csv
-      hash: md5
-      md5: 670726cdb88041d4c0917cbdfb586643
-      size: 249
-      isexec: true
-    - path: data/transformed/cars_market_segment.csv
-      hash: md5
-      md5: bed9ccb49cdd41065895f981b267afbd
-      size: 5071
-      isexec: true
-    - path: data/transformed/cars_size.csv
-      hash: md5
-      md5: 785d50186a11ca31cf22a2f654f93415
-      size: 3160
-      isexec: true
-    - path: data/transformed/motorbikes.csv
-      hash: md5
-      md5: fc9fd38142340e73409b450c49037134
-      size: 346
-      isexec: true
-    - path: data/transformed/passenger_vehicles_info.csv
+    - path: data/info/passenger_vehicles_info.csv
       hash: md5
       md5: a7f7282addbaee40c769ee489cad869d
       size: 2350
-      isexec: true
-    - path: data/transformed/sea_travel.csv
-      hash: md5
-      md5: d1a0d8f6e29de0d40058615f6ee39fa9
-      size: 204
-      isexec: true
-    - path: data/transformed/taxis.csv
-      hash: md5
-      md5: f48aeeb39bba520740d4d79426388a20
-      size: 195
-      isexec: true
-    - path: data/transformed/trains.csv
-      hash: md5
-      md5: e346787a0300b32c8e427aed7f36d7b4
-      size: 261
       isexec: true
   prepare:
     cmd: PYTHONPATH=. python pipelines/prepare.py
@@ -98,9 +58,37 @@ stages:
     deps:
     - path: data-raw/emission_factors_flat_file.xlsx
       hash: md5
-      md5: 6bb749f7ea408bf558d80ea7d6f6df5d
+      md5: 56d46acf232388546e3a838434ea303d
       size: 374206
     - path: pipelines/flat_transform.py
       hash: md5
-      md5: ecdf8ab981d0b49163695c3ef16c430a
-      size: 2205
+      md5: 5ce47d078d508e0a6a9bc31dc8b2a414
+      size: 2197
+    outs:
+    - path: data/emission_factors.csv
+      hash: md5
+      md5: 8012f2dbc5142e1f79fb90565c909d4b
+      size: 23411
+      isexec: true
+  info:
+    cmd: PYTHONPATH=. python pipelines/info.py
+    deps:
+    - path: data-raw/gov_emissions.xlsx
+      hash: md5
+      md5: a0e92e85f34310cbc83d97bf0cbc164d
+      size: 1918193
+    - path: pipelines/info.py
+      hash: md5
+      md5: c21be019f579b1c28a4a863c5154d571
+      size: 6676
+    outs:
+    - path: data/info/air_travel_info.csv
+      hash: md5
+      md5: 6b0f9de08aecd0f264f2773a361833a5
+      size: 411
+      isexec: true
+    - path: data/info/passenger_vehicles_info.csv
+      hash: md5
+      md5: a7f7282addbaee40c769ee489cad869d
+      size: 2350
+      isexec: true

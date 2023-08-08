@@ -1,41 +1,15 @@
 stages:
-      # scrape:
-      #       cmd: PYTHONPATH=. python pipelines/scrape.py
-      #       wdir: ../
-      #       deps:
-      #             - pipelines/scrape.py
-      #       outs:
-      #             #   - data-raw/gov_emissions.xlsx:
-      #             #       cache: false
-      #             - data-raw/gov_emissions_flat_file.xlsx:
-      #                     cache: false
-      # transform:
-      #       cmd: PYTHONPATH=. python pipelines/transform.py
-      #       wdir: ../
-      #       deps:
-      #             - pipelines/transform.py
-      #             - data-raw/gov_emissions.xlsx
-      #       outs:
-      #             - data/transformed/cars_market_segment.csv:
-      #                     cache: false
-      #             - data/transformed/cars_size.csv:
-      #                     cache: false
-      #             - data/transformed/motorbikes.csv:
-      #                     cache: false
-      #             - data/transformed/passenger_vehicles_info.csv:
-      #                     cache: false
-      #             - data/transformed/air_travel_info.csv:
-      #                     cache: false
-      #             - data/transformed/air_travel.csv:
-      #                     cache: false
-      #             - data/transformed/buses.csv:
-      #                     cache: false
-      #             - data/transformed/sea_travel.csv:
-      #                     cache: false
-      #             - data/transformed/trains.csv:
-      #                     cache: false
-      #             - data/transformed/taxis.csv:
-      #                     cache: false
+      info:
+            cmd: PYTHONPATH=. python pipelines/info.py
+            wdir: ../
+            deps:
+                  - pipelines/info.py
+                  - data-raw/gov_emissions.xlsx
+            outs:
+                  - data/info/passenger_vehicles_info.csv:
+                          cache: false
+                  - data/info/air_travel_info.csv:
+                          cache: false
       # prepare:
       #       cmd: PYTHONPATH=. python pipelines/prepare.py
       #       wdir: ../
@@ -51,6 +25,6 @@ stages:
             deps:
                   - pipelines/flat_transform.py
                   - data-raw/emission_factors_flat_file.xlsx
-            # outs:
-            #       - data/transformed/processed_emission_factors_flat.csv:
-            #             cache: false
+            outs:
+                  - data/emission_factors.csv:
+                        cache: false

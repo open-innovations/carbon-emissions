@@ -50,5 +50,5 @@ if __name__ == "__main__":
     data = transform(data)
     
     # write to file
-    data.to_csv('data/prepped/emission_factors.csv')
+    data.to_csv('data/emission_factors.csv')
 
