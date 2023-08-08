@@ -5,13 +5,13 @@ stages:
     deps:
     - path: pipelines/scrape.py
       hash: md5
-      md5: 38495f63aa0e63ecc05227b22dafcee8
-      size: 659
+      md5: eec2113c4399523910c4434be5268949
+      size: 953
     outs:
-    - path: data-raw/gov_emissions.xlsx
+    - path: data-raw/gov_emissions_flat_file.xlsx
       hash: md5
-      md5: cbd4f53edb700024930eb9813610e6e1
-      size: 1885737
+      md5: 888fb1227bc7f7fc55814d6a1e05015f
+      size: 1303040
       isexec: true
   transform:
     cmd: PYTHONPATH=. python pipelines/transform.py
@@ -93,3 +93,14 @@ stages:
       md5: d4fe384b0f9f7b8dcba84fab0c2b9e5c
       size: 9349
       isexec: true
+  flat_transform:
+    cmd: PYTHONPATH=. python pipelines/flat_transform.py
+    deps:
+    - path: data-raw/emission_factors_flat_file.xlsx
+      hash: md5
+      md5: 6bb749f7ea408bf558d80ea7d6f6df5d
+      size: 374206
+    - path: pipelines/flat_transform.py
+      hash: md5
+      md5: ecdf8ab981d0b49163695c3ef16c430a
+      size: 2205
