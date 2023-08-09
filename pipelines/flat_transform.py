@@ -40,7 +40,7 @@ def transform(data):
     data.rename(columns=renames, inplace=True)
 
     # re-order columns
-    data = data.reindex(columns=['Scope', 'activity', 'type', 'fuel_type', 'flight_class', 'return_flight', 'ghg_unit', 'distance_unit', 'variable_name', 'value'])
+    data = data.reindex(columns=['Scope', 'activity', 'type', 'fuel_type', 'flight_class', 'return_flight', 'ghg_unit', 'distance_unit', 'variable_name', 'value']).set_index('Scope')
     return data
 
 if __name__ == "__main__":
