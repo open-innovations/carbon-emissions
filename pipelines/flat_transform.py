@@ -48,7 +48,7 @@ if __name__ == "__main__":
     # read the data in and transform it
     data = read_data(filepath=PATH, sheet_name="Factors by Category", skiprows=5, nrows=8039, engine="openpyxl")
     data = transform(data)
-    
+    data = data.round(4)
     # write to file
     data.to_csv('data/emission_factors.csv')
 
