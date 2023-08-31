@@ -1,4 +1,4 @@
-Scope,activity,type,fuel_type,flight_class,return_flight,ghg_unit,distance_unit,variable_name,value
+Scope,activity,type,fuel_type,flight_class,indirect_effects,ghg_unit,distance_unit,variable_name,value
 Scope 1,Cars (by market segment),Mini,Diesel,,,kg CO2e,km,GHG Conversion Factor 2023,0.1077
 Scope 1,Cars (by market segment),Mini,Petrol,,,kg CO2e,km,GHG Conversion Factor 2023,0.1303
 Scope 1,Cars (by market segment),Mini,Unknown,,,kg CO2e,km,GHG Conversion Factor 2023,0.1301

@@ -30,7 +30,7 @@ def transform(data):
 
     # extract "column text" into two separate columns as it contains different types of data
     # remove the old data from the original column
-    data['return_flight'] = data['Column Text'].str.extract('(With RF|Without RF)', expand=True)
+    data['indirect_effects'] = data['Column Text'].str.extract('(With RF|Without RF)', expand=True)
     data['Column Text'] = data['Column Text'].str.replace('(With RF|Without RF)', '', regex=True)
     
     data['variable_name'] = 'GHG Conversion Factor 2023'
@@ -40,7 +40,7 @@ def transform(data):
     data.rename(columns=renames, inplace=True)
 
     # re-order columns
-    data = data.reindex(columns=['Scope', 'activity', 'type', 'fuel_type', 'flight_class', 'return_flight', 'ghg_unit', 'distance_unit', 'variable_name', 'value']).set_index('Scope')
+    data = data.reindex(columns=['Scope', 'activity', 'type', 'fuel_type', 'flight_class', 'indirect_effects', 'ghg_unit', 'distance_unit', 'variable_name', 'value']).set_index('Scope')
     return data
 
 if __name__ == "__main__":
